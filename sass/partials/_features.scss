@@ -1,0 +1,208 @@
+.features{
+    background: #F9F9F9;
+    padding-bottom: 100px;
+    
+    .features-list{
+    
+        @include respond-to('medium'){
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        li{            
+            @include respond-to('medium'){
+                display: inline-block;
+                width: 19%;
+                vertical-align: top;
+            }
+            
+            .feature{
+                position: relative;
+                transition: all 0.5s;
+                border-bottom: 1px solid #E4E4E4;
+                
+                @include respond-to('medium'){
+                    border: 0;
+                    margin: 0;
+                }
+                .featured-image{
+                    display: none;
+                    
+                    @include respond-to('medium'){
+                        width: 100%;
+                        display: block;
+                    }
+                }
+                
+                .info{
+                    @include respond-to('medium'){
+                        position: absolute;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        text-align: center;
+                        padding: 20px;
+                        z-index: 1;
+                    }
+                    
+                    .card-header{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row-reverse;
+                        justify-content: flex-end;
+                        background: transparent;
+                        border: 1px solid transparent;
+                        padding-bottom: 10px;
+                        border-radius: 0;
+                        margin-top: -1px;
+                        height: 100px;
+                        position: relative;
+                        
+                        @include respond-to('medium'){
+                            height: auto;
+                        }
+                        
+                        &:after{
+                            content: "";
+                            position: absolute;
+                            width: 15px;
+                            height: 9px;
+                            right: 30px;
+                            background-image: url(img/icons/arrow-blue-down.png);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            transition: all 0.5s;
+                            
+                            @include respond-to('medium'){
+                                display: none;
+                            }
+                        }
+                        
+                        @include respond-to('medium'){
+                            display: block;
+                            padding: 0;
+                        }
+                    }
+                    
+                    .title{
+                        color: $blue;
+                        font-size: 20px;
+                        
+                        @include respond-to('medium'){
+                            margin-bottom: 15px;
+                            font-size: 24px;
+                        }
+                        
+                        b{
+                            display: block;
+                        }
+                    }
+                    
+                    .description{
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: height 0.5s;
+                        height: 0;
+                        text-align: center;
+                        
+                        p{
+                            margin-top: 10px;
+                            font-size: 17px;
+
+                            @include respond-to("medium"){
+                                font-size: 15px;
+                            }
+                        }
+                        
+                        @include respond-to("medium"){
+                            height: auto;
+                            transition: all 0.5s;
+                        }
+                    }
+                    
+                    .icon{
+                        margin-right: 50px;
+                        
+                        @include respond-to('medium'){
+                            margin: 0;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: all 0.5s;
+                            transform: scale(0.8);
+                        }
+                    }
+                }
+                
+                @include respond-to('medium'){
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 108px;
+                        background: $white;
+                        opacity: 0.9;
+                        top: 0;
+                        left: 0;
+                        z-index: 0;
+                        transition: all 0.5s;
+                    }
+                }
+                
+                &:hover{
+                    @include respond-to('medium'){
+                        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+                        transition: all 0.5s;
+                    }
+                    
+                    .card-header{
+                        background: #F4F4F4;
+                        border: 1px solid #E4E4E4;
+                        transition: all 0.5s;
+                        
+                        &:after{
+                            transform: rotate(-180deg);
+                            transition: all 0.5s;
+                        }
+                        
+                        @include respond-to('medium'){
+                            background: transparent;
+                            border: 0;
+                        }
+                    }
+                    
+                    .description{
+                        opacity: 1;
+                        visibility: visible;
+                        transition: all 0.5s;
+                        height: 150px;
+                        
+                        p{
+                            padding: 25px 10px;
+                            
+                            @include respond-to('medium'){
+                                padding: 0;
+                            }
+                        }
+                        
+                       @include respond-to('medium'){
+                           height: auto;
+                           transition: all 1s;
+                        }
+                    }
+                    .icon{
+                        @include respond-to('medium'){
+                            opacity: 1;
+                            visibility: visible;
+                            transition: all 1s;
+                        }
+                    }
+                    
+                    &:after{
+                        height: 100%;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

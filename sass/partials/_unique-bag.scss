@@ -1,0 +1,128 @@
+.unique-bag{
+    background-image: linear-gradient(#E5E5E5, #FBFBFB);
+    margin-bottom: 100px;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    text-align: center;
+    
+    .title{
+        font-size: 26px;
+        font-weight: $bold;
+        color: $blue;
+    }
+    
+    p{
+        font-size: 17px;
+        color: #7B7B7B;
+        font-weight: $light;
+    }
+    
+    .subtitle{
+        font-size: 16px;
+        font-weight: $bold;
+        margin-bottom: 50px;
+    }
+    
+    .unique-slider{
+        width: 100%;
+        background: rgba(255, 255, 255, 0.45);
+        border: 1px solid $white;
+        border-radius: 0;
+        
+        .slide{
+            height: 350px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            
+            img{
+                width: 45%;
+                display: inline-block;
+                margin-bottom: 40px;
+            }
+        }
+        
+        .active-number{
+            position: absolute;
+            bottom: -20px;
+            left: calc(50% - 35px);
+            background: $white;
+            font-size: 37px;
+            border-radius: 50px;
+            width: 70px;
+            height: 70px;
+            box-shadow: 2px 3px 17px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            &:before{
+                    content: "0";
+                }
+        }
+        
+        .flex-control-nav{
+            bottom: 5px;
+            
+            li{
+                margin: 0 25px;
+                
+                &:nth-of-type(2){
+                    margin-right: 180px;
+                }
+                
+                a{
+                    font-size: 20px;
+                    color: #7B7B7B;
+                    display: block;
+                    
+                    &:before{
+                        content: "0";
+                    }
+                }
+            }
+        }
+        
+        .flex-direction-nav{
+            position: relative;
+            width: 170px;
+            margin: 0 auto;
+            
+            a{
+                bottom: 0;
+                top: initial;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .flex-prev{
+                left: 0;
+                opacity: 1;
+                font-size: 0;
+
+                &:before{
+                    content: "";
+                    background-image: url(img/icons/arrow-gray-left.png);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 16px;
+                    height: 16px;
+                    display: block;
+                }
+            }
+
+            .flex-next{
+                @extend .flex-prev;
+                left: initial;
+                right: 0;
+
+                &:before{
+                    background-image: url(img/icons/arrow-gray-right.png);
+                    float: right;
+                }
+
+            }
+        }
+    }
+}

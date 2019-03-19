@@ -1,0 +1,42 @@
+.btn-full{
+    display: inline-block;
+    background-color: $red;
+    color: $white;
+    font-weight: $bold;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 8px 25px;
+    letter-spacing: 0.2px;
+    
+    &.arrow-down{
+        background-image: url(img/icons/arrow-white-down.png);
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+        background-size: 10px;
+        padding-right: 50px;
+    }
+    
+    &.upper{
+        text-transform: uppercase;
+    }
+    
+    &:hover{
+        color: $white;
+        background-color: #af2b45;
+    }
+}
+
+.red-lnk{
+    font-size: 16px;
+    font-weight: $bold;
+    color: $red;
+    text-transform: uppercase;
+    
+    &.arrow-right{
+        background-image: url(img/icons/arrow-red-right.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 10px;
+        padding-right: 20px;
+    }
+}

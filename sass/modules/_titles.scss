@@ -1,0 +1,51 @@
+.hero-title{
+    font-size: 42px;
+    font-weight: $light;
+}
+
+.title-description{
+    text-align: center;
+    height: 165px;
+    margin: 50px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .bg{
+        position: absolute;
+        top: 0;
+        color: #CCCCCC;
+        text-transform: uppercase;
+        font-size: 100px;
+        line-height: 1.5;
+        font-weight: $extra-bold;
+        z-index: 0;
+        opacity: 0.15;
+
+        @include respond-to('medium'){
+            font-size: 132px;
+            line-height: 1;
+        }
+    }
+
+    p{
+        position: relative;
+        font-size: 20px;
+        line-height: 2;
+        color: #575757;
+        
+        @include respond-to('medium'){
+            font-size: 26px;
+            line-height: 1.4;
+        }
+    }
+}
+
+.small-subtitle{
+    font-size: 14px;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
