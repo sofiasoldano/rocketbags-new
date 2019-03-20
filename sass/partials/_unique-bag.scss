@@ -5,6 +5,7 @@
     padding: 30px;
     text-align: center;
     flex-direction: column-reverse;
+    align-items: center;
     
     @include respond-to('medium'){
         flex-direction: initial;
@@ -36,7 +37,7 @@
             margin-bottom: 5px;
             
             @include respond-to('medium'){
-                margin-bottom: 10px;
+                margin-bottom: 16px;
             }
         }
     }
@@ -62,6 +63,10 @@
                 
                 &:last-of-type{
                     margin-bottom: 70px;
+                    
+                    @include respond-to('medium'){
+                        margin-bottom: 40px;
+                    }
                 }
                 
                 @include respond-to('medium'){
