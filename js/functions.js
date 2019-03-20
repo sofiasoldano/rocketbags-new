@@ -32,29 +32,24 @@ $(document).ready(function() {
                 controlNav: true,
                 itemWidth: 600,
                 minItems: 1,
+                after: function(){
+                    activeNumber();
+                }
             });
             $('.unique-slider .flex-control-paging').removeClass('flex-control-paging');
             activeNumber();
         }, 70);
     });
 
-    $(".unique-slider .flex-prev").click(function() {
-        activeNumber();
-        console.log("hola");
-    });
-    $(".unique-slider .flex-next").click(function() {
-        activeNumber();
-        console.log("hola");
-    });
-    $(".unique-slider .flex-control-nav li a").click(function() {
-         activeNumber();
-        console.log("hola");
-    });
 
 });
     
 function activeNumber(){
-    var str = $( ".flex-active" ).text();
+     var str = $( ".flex-active" ).text();
     $('.active-number').html( str );
-    console.log(str);
+    console.log(str); 
 }
+$(".number-change").click(function() {
+        activeNumber();
+        console.log("hola");
+    });

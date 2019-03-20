@@ -205,11 +205,13 @@
                     <div class="col-md-5">
                         <div class="title">Get the Perfect Bag</div>
                         <p class="subtitle">Add extra value to your campaign or project.</p>
-                        <p>Your own unique design</p>
-                        <p>Your perfect colour</p>
-                        <p>The most suitable material</p>
-                        <p>We make it easy!</p>
-                        <p>Could cost less than a stock bag!</p>
+                        <div class="desc">
+                            <p>Your own unique design</p>
+                            <p>Your perfect colour</p>
+                            <p>The most suitable material</p>
+                            <p>We make it easy!</p>
+                            <p>Could cost less than a stock bag!</p>
+                        </div>
                     </div>
                 </div>
             </div>
