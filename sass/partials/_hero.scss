@@ -27,8 +27,10 @@
         }
     }
     
-    @include respond-to('xsmall'){
-        .btn-full{
+    .btn-full{
+        margin-top: 20px;
+        
+        @include respond-to('xsmall'){
             display: block;
             border-radius: 0;
             text-align: center;
@@ -47,6 +49,11 @@
         @include respond-to('medium'){
             padding-bottom: 0;
         }
+    }
+    
+    .breadcrumbs{
+        font-size: 19px;
+        margin-bottom: 20px;
     }
     
     p{

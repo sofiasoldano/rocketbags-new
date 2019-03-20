@@ -1,0 +1,37 @@
+.page-tailor-made{
+    .hero{
+        .background{
+            img{
+                object-position: 65% 0%;
+                
+                @include respond-to('medium'){
+                    object-position: center;
+                }
+            }
+        }
+    }
+    
+    .btn-list{
+        font-size: 0;
+        
+        li{
+            display: inline-block;
+            width: 45%;
+            
+            @include respond-to('large'){
+                 width: 27%;
+            }
+            
+            @include respond-to('xsmall'){
+                width: 50%;
+                
+                a{
+                    width: 100%;
+                    border-radius: 0;
+                    padding: 25px;
+                }
+                
+            }
+        }
+    }
+}

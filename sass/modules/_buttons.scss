@@ -8,6 +8,10 @@
     padding: 8px 25px;
     letter-spacing: 0.2px;
     
+    &.blue-bg{
+        background-color: $blue;
+    }
+    
     &.arrow-down{
         background-image: url(img/icons/arrow-white-down.png);
         background-repeat: no-repeat;

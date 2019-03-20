@@ -16,21 +16,21 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 
-                <div class="partners-slider flexslider">
+                <div class="partners-hero-slider flexslider">
                     <div class="small-subtitle white">Our bags are trusted by:</div>
                     <ul class="slides">
-                        <li><img src="img/partners-logos/01-British_Gas_logo.png" alt="British Gas"></li>
-                        <li><img src="img/partners-logos/02-pfizer_logo.png" alt="Pfizer"></li>
-                        <li><img src="img/partners-logos/03-Wimbledon_logo.png" alt="Wimbledon"></li>
-                        <li><img src="img/partners-logos/04-client-logo-deutschebank.png" alt="Deutsche Bank"></li>
-                        <li><img src="img/partners-logos/05-Marks-and-Spencer-Logo.png" alt="Marks and Spencer"></li>
-                        <li><img src="img/partners-logos/06-logo-herbalife.png" alt="Herbalife"></li>
-                        <li><img src="img/partners-logos/01-British_Gas_logo.png" alt="British Gas"></li>
-                        <li><img src="img/partners-logos/02-pfizer_logo.png" alt="Pfizer"></li>
-                        <li><img src="img/partners-logos/03-Wimbledon_logo.png" alt="Wimbledon"></li>
-                        <li><img src="img/partners-logos/04-client-logo-deutschebank.png" alt="Deutsche Bank"></li>
-                        <li><img src="img/partners-logos/05-Marks-and-Spencer-Logo.png" alt="Marks and Spencer"></li>
-                        <li><img src="img/partners-logos/06-logo-herbalife.png" alt="Herbalife"></li>
+                        <li><img src="img/partners-home/01-British_Gas_logo.png" alt="British Gas"></li>
+                        <li><img src="img/partners-home/02-pfizer_logo.png" alt="Pfizer"></li>
+                        <li><img src="img/partners-home/03-Wimbledon_logo.png" alt="Wimbledon"></li>
+                        <li><img src="img/partners-home/04-client-logo-deutschebank.png" alt="Deutsche Bank"></li>
+                        <li><img src="img/partners-home/05-Marks-and-Spencer-Logo.png" alt="Marks and Spencer"></li>
+                        <li><img src="img/partners-home/06-logo-herbalife.png" alt="Herbalife"></li>
+                        <li><img src="img/partners-home/01-British_Gas_logo.png" alt="British Gas"></li>
+                        <li><img src="img/partners-home/02-pfizer_logo.png" alt="Pfizer"></li>
+                        <li><img src="img/partners-home/03-Wimbledon_logo.png" alt="Wimbledon"></li>
+                        <li><img src="img/partners-home/04-client-logo-deutschebank.png" alt="Deutsche Bank"></li>
+                        <li><img src="img/partners-home/05-Marks-and-Spencer-Logo.png" alt="Marks and Spencer"></li>
+                        <li><img src="img/partners-home/06-logo-herbalife.png" alt="Herbalife"></li>
                     </ul>
                 </div>
             </div>
@@ -315,9 +315,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="offset-md-4 col-md-7">
+            <div class="offset-lg-4 col-lg-7">
                 <div class="box">
-                    <p>Get your brand on the <b>UK's biggest range of 'ready-to-go' </b>promotional bags!</p>
+                    <p class="title">Get your brand on the <b>UK's biggest range of 'ready-to-go' </b>promotional bags!</p>
                     <a class="red-lnk arrow-right" href="#">Find out more</a>
                 </div>
             </div>

@@ -9,7 +9,7 @@ $(document).ready(function() {
         }
     });*/
     
-    $('.partners-slider').flexslider({
+    $('.partners-hero-slider').flexslider({
         animation: "slide",
         animationLoop: false,
         slideshow: true,
@@ -21,25 +21,27 @@ $(document).ready(function() {
         minItems: 6
     });
     
-    $(".lnk-unique").click(function() {
-        setTimeout(function(){
-            $('.unique-slider').flexslider({
-                animation: "slide",
-                animationLoop: false,
-                slideshow: true,
-                animationLoop: true,
-                directionNav: true,
-                controlNav: true,
-                itemWidth: 600,
-                minItems: 1,
-                after: function(){
-                    activeNumber();
-                }
-            });
-            $('.unique-slider .flex-control-paging').removeClass('flex-control-paging');
-            activeNumber();
-        }, 70);
-    });
+    if($(".lnk-unique").length){
+        $(".lnk-unique").click(function() {
+            setTimeout(function(){
+                initUniqueSlider();
+            }, 70);
+        });
+    } else {
+        initUniqueSlider();
+    }
+    
+    if($( window ).width() < 768){
+        $('.partners-slider').addClass('flexslider');
+         $('.partners-slider').flexslider({
+            animation: "slide",
+            animationLoop: false,
+            slideshow: true,
+            animationLoop: true,
+            directionNav: false,
+            controlNav: true
+        });
+    }
 
 
 });
@@ -49,7 +51,21 @@ function activeNumber(){
     $('.active-number').html( str );
     console.log(str); 
 }
-$(".number-change").click(function() {
-        activeNumber();
-        console.log("hola");
+
+function initUniqueSlider(){
+    $('.unique-slider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        slideshow: true,
+        animationLoop: true,
+        directionNav: true,
+        controlNav: true,
+        itemWidth: 600,
+        minItems: 1,
+        after: function(){
+            activeNumber();
+        }
     });
+    $('.unique-slider .flex-control-paging').removeClass('flex-control-paging');
+    activeNumber();
+}

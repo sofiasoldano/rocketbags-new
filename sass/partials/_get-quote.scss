@@ -1,0 +1,28 @@
+.get-quote{
+    background: #f9f9f9;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 100px 0;
+    
+    .form-container{
+        max-width: 855px;
+        margin: 0 auto;
+        margin-top: 100px;
+        
+        label{
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        
+        .submit{
+            background-image: url(img/icons/send.png);
+            background-repeat: no-repeat;
+            background-size: 22px;
+            background-position: right 20px center;
+            
+            @include respond-to('small'){
+                padding-right: 58px;
+            }
+        }
+    }
+}

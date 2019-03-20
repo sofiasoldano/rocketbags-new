@@ -6,11 +6,16 @@
 .title-description{
     text-align: center;
     height: 165px;
-    margin: 50px 0;
+    margin: 50px 0 40px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    &.small{
+        height: 20px;
+        margin-top: 0;
+    }
 
     .bg{
         position: absolute;
