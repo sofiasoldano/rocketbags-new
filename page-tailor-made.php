@@ -76,7 +76,7 @@
     <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                    <div class="title-description">
+                    <div class="title-description mb-0">
                         <p>Why Choose <b>Tailor-Made Over Stock Bags</b></p>
                     </div>
                     <div class="text-description">

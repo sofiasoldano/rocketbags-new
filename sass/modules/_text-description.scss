@@ -7,5 +7,12 @@
     p{
         color: #7B7B7B;
         margin-bottom: 30px;
+        font-size: 17px;
+        line-height: 1.6;
+        
+        @include respond-to('small'){
+            font-size: 21px;
+            line-height: 1.4;
+        }
     }
 }

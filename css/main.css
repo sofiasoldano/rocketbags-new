@@ -288,6 +288,15 @@ input.submit {
 .text-description p {
   color: #7B7B7B;
   margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+@media (min-width: 768px) {
+  /* line 7, ../sass/modules/_text-description.scss */
+  .text-description p {
+    font-size: 21px;
+    line-height: 1.4;
+  }
 }
 
 /* line 1, ../sass/partials/_header.scss */
