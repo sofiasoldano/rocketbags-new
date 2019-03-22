@@ -2,53 +2,24 @@
     background: transparent;
     border: 0;
     margin-bottom: 0;
-}
-
-.partners-hero-slider{
-    padding: 0 30px;
-    margin-top: 60px;
     
-    .flex-direction-nav{
-        .flex-prev{
-            left: 0;
-            opacity: 1;
-            top: 90%;
-            font-size: 0;
-            
-            &:before{
-                content: "";
-                background-image: url(img/icons/arrow-white-left.png);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 12px;
-                height: 12px;
-                display: block;
+    .flex-control-paging{
+        li{
+            vertical-align: middle;
+
+            a{
+                background: #E2E2E2;
+                box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+                transition: all 0.5s;
+
+                &.flex-active{
+                    background: $red;
+                    width: 15px;
+                    height: 15px;
+                    transition: all 0.5s;
+                }
             }
         }
-        
-        .flex-next{
-            @extend .flex-prev;
-            left: initial;
-            right: 0;
-            
-            &:before{
-                background-image: url(img/icons/arrow-white-right.png);
-                float: right;
-            }
-        
-        }
-    } 
-    
-    &:hover{
-        .flex-direction-nav{
-            .flex-prev{
-                left: 0;
-            }
-
-            .flex-next{
-                left: initial;
-                right: 0;
-            }
-        } 
     }
 }
+

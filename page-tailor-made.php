@@ -84,9 +84,255 @@
 
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut <b class="blue">fugit, sed quia consequuntur magni </b>dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, adipisci velit, sed quia non numquam eius modi tempora incidunt ut l</p>
                     </div>
+                    <div class="video-container">
+                        <img src="img/video.png" class="img-responsive">
+                    </div>
                 </div>
             </div>
         </div>
+</section>
+
+<section class="customised">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-description">
+                    <p>What <b>Can be Customised</b> on Tailer-Made Bags?</p>
+                </div>
+                <div class="customised-slider">
+                    <ul class="slides">
+                        <li>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-shape.png" alt="Shape" width="80"></div>
+                                    <div class="title">Shape</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-size.png" alt="Size" width="77"></div>
+                                    <div class="title">Size</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-branding.png" alt="Branding" width="45"></div>
+                                    <div class="title">Branding</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-pockets.png" alt="Pockets" width="43"></div>
+                                    <div class="title">Pockets</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-materials.png" alt="Materials" width="50"></div>
+                                    <div class="title">Materials</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-straps.png" alt="Straps" width="59"></div>
+                                    <div class="title">Straps</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-colours.png" alt="Colours" width="54"></div>
+                                    <div class="title">Colours</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="heading">
+                                    <div class="icon"><img src="img/c-zips.png" alt="Zips" width="43"></div>
+                                    <div class="title">Zips</div>
+                                </div>
+                                <div class="desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn-full">Get a Quote on a Tailor-Made Bags </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="title-description mb-0">
+                <p><b>Sketch to Finished Product:</b> <br>More Examples of Previous <b>Tailor-Made Bags</b></p>
+            </div>
+            <div class="text-description">
+                <p>Below you can find examples of the <b class="blue">pre-fabrication sketches</b> of some of our previous tailor-made bag projects, and the <b class="blue">finished bags made from those designs .</b> </p>
+            </div>
+        </div>
+    </div>
+    <div class="gallery-container">
+        <div class="gallery-image x1-3"><img src="img/gallery/1.png"></div>
+        <div class="gallery-image x1-3"><img src="img/gallery/2.png"></div>
+        <div class="gallery-image x1-3"><img src="img/gallery/3.png"></div>
+    </div>
+    <div class="gallery-container">
+        <div class="gallery-image x1-4"><img src="img/gallery/4.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/5.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/6.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/7.png"></div>
+        <div class="gallery-image x1-2"><img src="img/gallery/8.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/9.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/10.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/11.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/12.png"></div>
+        <div class="gallery-image x1-4"><img src="img/gallery/13.png"></div>
+    </div>
+</section>
+
+<section class="faqs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-description">
+                    <p>Frequently <b>Asked Questions</b></p>
+                </div>
+            </div>
+        </div>
+        <div id="accordion">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Lorem ipsum dolor sit amet ?
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                          <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Consectetur adipiscing sed do eiusmod tempo ?
+                            </button>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <div class="card-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Lorem ipsum dolor sit amet ?
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                          <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Consectetur adipiscing sed do eiusmod tempo ?
+                            </button>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                          <div class="card-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                Lorem ipsum dolor sit amet ?
+                            </button>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                          <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingSix">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Consectetur adipiscing sed do eiusmod tempo ?
+                            </button>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                          <div class="card-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingSeven">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Lorem ipsum dolor sit amet ?
+                            </button>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                          <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingEight">
+                            <button class="btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Consectetur adipiscing sed do eiusmod tempo ?
+                            </button>
+                        </div>
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                          <div class="card-body">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="get-quote">

@@ -34,4 +34,183 @@
             }
         }
     }
+    
+    .main{
+        background: linear-gradient(#ffffff, #f0f0f0);
+        margin-bottom: 100px;
+        
+        .video-container{
+            max-width: 800px;
+            margin: 0 auto -100px;
+            box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.12);
+        }
+    }
+    
+    .customised{
+        .slides{
+            li{
+                @include respond-to('small'){
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .box{
+                    width: 100%;
+                    background: $white;
+                    padding: 20px;
+                    text-align: center;
+                    display: inline-block;
+                    margin-bottom: 15px;
+                    transition: all 0.5s;
+                    box-shadow: 0 30px 50px -16px rgba(0, 0, 0, 0.03);
+                    
+                    @include respond-to('xsmall'){
+                        &:hover{
+                            .desc{
+                                height: 90px;
+                                opacity: 1;
+                                visibility: visible;
+                                transition: all 0.5s;
+                            }
+                        }
+                    }
+                    
+                    @include respond-to('small'){
+                        width: 250px;
+                        margin-bottom: 50px;
+                        box-shadow: none;
+                        
+                        &:hover{
+                            box-shadow: 0 30px 50px -16px rgba(0, 0, 0, 0.15);
+                            transition: all 0.5s;
+                        }
+                    }
+                    
+                    .heading{
+                        display: flex;
+                        align-items: center;
+                        height: 100px;
+                        padding: 0 20px;
+                        position: relative;
+                        
+                        &:after{
+                            content: "";
+                            position: absolute;
+                            width: 18px;
+                            height: 10px;
+                            right: 30px;
+                            top: 50%;
+                            background-image: url(img/icons/arrow-blue-down.png);
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                        
+                        @include respond-to('small'){
+                            display: block;
+                            height: auto;
+                            padding: 0;
+                            
+                            &:after{
+                                display: none;
+                            }
+                        }
+                        
+                        .icon{
+                            height: 65px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 30px;
+                            width: 80px;
+                            
+                            img{
+                                @include respond-to('xsmall'){
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+                            
+                            @include respond-to('small'){
+                               margin: 0 auto;
+                            }
+                            
+                        }
+                        
+                        .title{
+                            font-size: 24px;
+                            color: $blue;
+                            margin: 20px 0;
+                        }
+                    }
+                    
+                    .desc{
+                        opacity: 0;
+                        visibility: hidden;
+                        height: 0;
+                        overflow: hidden;
+                        transition: all 0.5s;
+                        
+                        @include respond-to('small'){
+                            height: auto;
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                        
+                        p{
+                            font-size: 15px;
+                            color: #7B7B7B;
+                            padding-top: 10px;
+                            
+                            
+                            @include respond-to('small'){
+                                padding-top: 0;
+                                padding-left: 15px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .flexslider{
+            margin-bottom: 100px;
+        }
+    }
+    
+    
+    .gallery{
+        padding: 0 2.5px;
+        overflow: hidden;
+        
+        .gallery-container{
+            
+            .gallery-image{
+                padding: 2.5px;
+                font-size: 0;
+                
+                &.x1-2{
+                    width: 100%;
+                    
+                    @include respond-to("small"){
+                        width: 50%;
+                    }
+                }
+                &.x1-3{
+                  width: 33.33%;
+                }
+                &.x1-4{
+                    width: 50%;
+                    
+                    @include respond-to("small"){
+                        width: 25%;
+                    }
+                }
+                
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }

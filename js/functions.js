@@ -41,7 +41,21 @@ $(document).ready(function() {
             directionNav: false,
             controlNav: true
         });
+        
+        $('.customised-slider').addClass('flexslider');
+         $('.customised-slider').flexslider({
+            animation: "slide",
+            animationLoop: false,
+            slideshow: true,
+            animationLoop: true,
+            directionNav: false,
+            controlNav: true
+        });
     }
+    
+    $('.gallery-container').masonry({
+      itemSelector: '.gallery-image'
+    });
 
 
 });

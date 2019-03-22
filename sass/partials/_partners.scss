@@ -33,23 +33,6 @@
             }
         }
         
-        .flex-control-nav{
-            li{
-                vertical-align: middle;
-                
-                a{
-                    background: #E2E2E2;
-                    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
-                    transition: all 0.5s;
-                    
-                    &.flex-active{
-                        background: $red;
-                        width: 15px;
-                        height: 15px;
-                        transition: all 0.5s;
-                    }
-                }
-            }
-        }
+        
     }
 }
