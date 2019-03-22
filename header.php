@@ -7,9 +7,9 @@
     <title>Rocket Bags</title>
 
     <!-- Style -->
-      <link href="css/vendors/masonry.css" rel="stylesheet">
+
     <link href="css/vendors/bootstrap.min.css" rel="stylesheet">
-       <link href="css/vendors/flexslider.css" rel="stylesheet">
+    <link href="css/vendors/flexslider.css" rel="stylesheet">
        
     <link href="css/main.css" rel="stylesheet">
       
