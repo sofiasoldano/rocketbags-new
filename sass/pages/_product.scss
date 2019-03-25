@@ -1,0 +1,29 @@
+.page-product{
+
+    .partners{
+        border-top: 1px solid #CCCCCC;
+    }
+    
+    .features{
+        .features-list{
+            li{
+                .feature{
+                    @include respond-to('medium'){
+                        min-height: 375px;
+
+                        &:after{
+                            height: 100%;
+                            opacity: 1;
+                        }
+
+                        .description, .icon{
+                            height: auto;
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}

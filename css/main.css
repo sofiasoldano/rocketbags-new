@@ -378,8 +378,9 @@ input.submit {
 /* line 2, ../sass/modules/_read-more.scss */
 #container-content-show-more #content-show-more {
   overflow: hidden;
+  transition: all 0.5s;
 }
-/* line 6, ../sass/modules/_read-more.scss */
+/* line 7, ../sass/modules/_read-more.scss */
 #container-content-show-more .morelink {
   text-align: center;
   padding: 20px 0;
@@ -1181,7 +1182,7 @@ footer .copyright p {
   /* line 157, ../sass/partials/_features.scss */
   .features .features-list li .feature:hover .card-header {
     background: transparent;
-    border: 0;
+    border: 1px solid transparent;
   }
 }
 /* line 173, ../sass/partials/_features.scss */
@@ -2499,4 +2500,26 @@ footer .copyright p {
   width: max-content;
   margin: 40px auto;
   padding: 12px 40px;
+}
+
+/* line 3, ../sass/pages/_product.scss */
+.page-product .partners {
+  border-top: 1px solid #CCCCCC;
+}
+@media (min-width: 990px) {
+  /* line 10, ../sass/pages/_product.scss */
+  .page-product .features .features-list li .feature {
+    min-height: 375px;
+  }
+  /* line 14, ../sass/pages/_product.scss */
+  .page-product .features .features-list li .feature:after {
+    height: 100%;
+    opacity: 1;
+  }
+  /* line 19, ../sass/pages/_product.scss */
+  .page-product .features .features-list li .feature .description, .page-product .features .features-list li .feature .icon {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
 }

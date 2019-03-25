@@ -166,7 +166,7 @@
                         
                         @include respond-to('medium'){
                             background: transparent;
-                            border: 0;
+                            border: 1px solid transparent;
                         }
                     }
                     
