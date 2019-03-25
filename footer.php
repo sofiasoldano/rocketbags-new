@@ -50,7 +50,7 @@
                         <div class="small-subtitle">© 2019 ROCKET BAGS COMPANY PART OF THE LYONS PRESENTATION GROUP 2147763</div>
                         <p>The images, design and content of this are the copyright of Lyons Presentations Group Ltd trading as Rocket Bags. </p>
                         <p>No part of this website or associated images may be copied or used without the prior expressed written permission of Rocket Bags.</p>
-                        <div class="small-subtitle"><a href="#">Terms and Conditions</a> - <a href="#">Privacy Statementt</a></div>
+                        <div class="small-subtitle"><a href="#">Terms and Conditions</a> - <a href="#">Privacy Statement</a></div>
                     </div>
                 </div>
             </div>
