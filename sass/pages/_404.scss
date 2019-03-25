@@ -1,0 +1,105 @@
+.page-404{
+    background: rgba(204, 204, 204, 0.1);
+    
+    .content{
+        margin: 50px 0;
+        margin-top: 200px;
+        
+        @include respond-to('medium'){
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        }
+        
+        .img-container{
+            position: absolute;
+            top: -70px;
+            left: 0;
+            z-index: -1;
+            
+            @include respond-to('small'){
+                top: -270px;
+            }
+            
+            @include respond-to('medium'){
+                background: #f5f5f5;
+                position: initial;
+                width: 50%;
+                height: 526px;
+            }
+            
+             @include respond-to('large'){
+                 height: 500px;
+            }
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        
+        .info{
+            background: $white;
+            padding: 40px;
+            text-align: center;  
+            
+            @include respond-to('medium'){
+                width: 50%;
+                padding: 50px;
+                min-height: 500px;
+            }
+            
+            .title{
+                font-weight: $extra-bold;
+                color: #4E4E4E;
+                margin-bottom: 15px;
+                
+                 @include respond-to('medium'){
+                     font-size: 42px;
+                }
+            }
+            
+            p{
+                font-size: 17px;
+                
+                @include respond-to('medium'){
+                    font-size: 21px;
+                }
+            }
+            
+            a{
+                display: block;
+                width: max-content;
+                margin: 15px auto;
+            }
+            
+            .btn-full{
+                margin-top: 40px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .bottom{
+        text-align: center;
+        margin-bottom: 50px;
+        
+        p{
+            font-size: 21px;
+            font-weight: $extra-bold;
+            margin-bottom: 0;
+            
+            .gray{
+                color: #7B7B7B;
+               font-weight: $bold;
+            }
+            
+            a{
+                color: $red;
+            }
+        }
+        
+    }
+}
