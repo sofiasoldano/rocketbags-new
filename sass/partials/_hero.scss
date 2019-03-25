@@ -1,6 +1,10 @@
 .hero{
     position: relative;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
+    
+    @include respond-to('medium'){
+        padding: 100px 0;
+    }
     
     &:after{
         content: "";

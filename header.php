@@ -29,7 +29,7 @@
             <div class="sections">
                 <ul>
                     <li><a <?php if ( $page_name == "home" ) echo 'class="active"'; ?> href="page-home.php">Home</a></li>
-                    <li><a <?php if ( $page_name == "bags" ) echo 'class="active"'; ?> href="">Bags</a></li>
+                    <li><a <?php if ( $page_name == "category" ) echo 'class="active"'; ?> href="page-category.php">Bags</a></li>
                     <li><a <?php if ( $page_name == "tailor-made" ) echo 'class="active"'; ?> href="page-tailor-made.php">Tailor-made bags</a></li>
                     <li><a <?php if ( $page_name == "about" ) echo 'class="active"'; ?> href="">About</a></li>
                     <li><a <?php if ( $page_name == "blog" ) echo 'class="active"'; ?> href="">Blog</a></li>

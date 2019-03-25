@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center partners-hero">
                 
                 <div class="partners-hero-slider flexslider">
                     <div class="small-subtitle white">Our bags are trusted by:</div>

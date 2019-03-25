@@ -43,4 +43,18 @@
         background-size: 10px;
         padding-right: 20px;
     }
+     &.arrow-down{
+        background-image: url(img/icons/arrow-red-down.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 10px;
+        padding-right: 20px;
+    }
+     &.arrow-up{
+        background-image: url(img/icons/arrow-red-up.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 10px;
+        padding-right: 20px;
+    }
 }

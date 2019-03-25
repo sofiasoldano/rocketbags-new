@@ -53,9 +53,28 @@ $(document).ready(function() {
         });
     }
     
-    $('.gallery-container').masonry({
-      itemSelector: '.gallery-image'
-    });
+    if( $('.gallery').length ) {
+        $('.gallery-container').masonry({
+          itemSelector: '.gallery-image'
+        });
+    }
+    
+    if( $('#content-show-more').length ) {
+        console.log("works!");
+
+        var content = document.getElementById('content-show-more');
+        var charQuantity = content.dataset.chars;
+        charQuantity = parseInt(charQuantity);
+
+        $('#content-show-more').readmore({
+            speed: 75,
+            collapsedHeight: charQuantity,
+            embedCSS: false,
+            blockCSS: 'display: block; width: 100%;',
+            moreLink: '<div class="morelink"><a href="#" class="red-lnk arrow-down">Read more</a></div>',
+            lessLink: '<div class="morelink"><a href="#" class="arrow-up red-lnk">Read less</a></div>'
+        });
+    }
 
 
 });
