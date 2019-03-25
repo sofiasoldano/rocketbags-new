@@ -5,6 +5,23 @@
         text-align: center;
         display: block;
         margin-bottom: 20px;
+        position: relative;
+        
+        .product-colours{
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 10px;
+            
+            li{
+                overflow: hidden;
+                margin-bottom: 6px;
+                text-indent: 100%;
+                width: 10px;
+                height: 10px;
+                border-radius: 12px;
+            }
+        }
         
         .img-container{
             width: 100%;

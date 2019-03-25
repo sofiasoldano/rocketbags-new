@@ -77,6 +77,13 @@
             <div class="row products-list">
                 <div class="col-6 col-md-3">
                     <a href="#" class="product">
+                        <div class="product-colours">
+                            <ul>
+                                <li class="loop-colour-sample" style="background-color: #0a0a0a;" title="Anthracite">Anthracite</li>
+                                <li class="loop-colour-sample" style="background-color: #000080;" title="Navy">Navy</li>
+                                <li class="loop-colour-sample" style="background-color: #dd3333;" title="Red">Red</li>
+                            </ul>
+                        </div>
                         <div class="img-container">
                             <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
                         </div>
