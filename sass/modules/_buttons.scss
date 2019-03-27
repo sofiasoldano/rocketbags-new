@@ -20,6 +20,14 @@
         padding-right: 50px;
     }
     
+    &.arrow-right{
+        background-image: url(img/icons/arrow-white-right.png);
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+        background-size: 8px;
+        padding-right: 45px;
+    }
+    
     &.upper{
         text-transform: uppercase;
     }
