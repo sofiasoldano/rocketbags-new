@@ -204,8 +204,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-description">
-                    <div id="container-content-show-more">							
-                        <div id="content-show-more" class="more" data-chars="75" >
+                    <div class="container-content-show-more">							
+                        <div class="content-show-more more" data-chars="75" >
                         
                             <p><b class="blue">Promotional backpacks & rucksacks</b> have universal appeal across all age groups and market sectors. Clients who use these range from schools and clubs to banks and blue chip corporates. With hundreds of designs, colours and fittings you can be sure that there is a Rocket Bag for you!</p>
                         </div>

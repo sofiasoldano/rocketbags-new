@@ -48,6 +48,11 @@ ul{
         display: none !important;
     }
 }
+.visible-xs{
+    @include respond-to('small'){
+        display: none !important;
+    }
+}
 .hidden-md{
     display: block !important;
     
