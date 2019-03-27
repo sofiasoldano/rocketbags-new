@@ -105,7 +105,7 @@ $(document).ready(function() {
         $('.product-container .nav-tabs a').click(function() {
             setTimeout(function(){
                 initReadMore();
-            }, 170);
+            }, 160);
         });
     }
 

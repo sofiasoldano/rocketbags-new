@@ -387,8 +387,13 @@
                     li{
                         display: inline-block;
                         border-right: 1px solid #E4E4E4;
-                        padding: 8px 15px 8px 0;
-                        margin-right: 15px;
+                        padding: 8px 10px 8px 0;
+                        margin-right: 10px;
+                        
+                        @include respond-to('small'){
+                            padding: 8px 15px 8px 0;
+                            margin-right: 15px;
+                        }
                         
                         p{
                             font-size: 15px;
