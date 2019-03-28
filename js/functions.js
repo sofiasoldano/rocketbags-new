@@ -84,6 +84,21 @@ $(document).ready(function() {
             slideshow: false
         });
         
+        $('.related-slider').addClass('flexslider');
+        $('.related-slider').flexslider({
+            selector: '.slides > .col-6',
+            animation: "slide",
+            animationLoop: false,
+            slideshow: true,
+            animationLoop: true,
+            directionNav: false,
+            controlNav: true,
+            itemWidth: 250,
+            minItems: 2,
+            maxItems: 2,
+            itemMargin: 20,
+        });
+        
         if( $('#features-list').length ) {
             $('#features-list').removeClass('show');
         }
