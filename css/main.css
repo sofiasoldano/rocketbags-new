@@ -3744,6 +3744,7 @@ footer .copyright p {
   /* line 149, ../sass/pages/_about.scss */
   .page-about .team .team-member {
     margin: 0 -8px;
+    margin-bottom: 50px;
   }
 }
 @media (min-width: 1200px) {
@@ -3752,7 +3753,7 @@ footer .copyright p {
     max-height: 600px;
   }
 }
-/* line 165, ../sass/pages/_about.scss */
+/* line 166, ../sass/pages/_about.scss */
 .page-about .team .team-member .image-container {
   width: 170px;
   height: 210px;
@@ -3760,34 +3761,34 @@ footer .copyright p {
   border-radius: 210px / 222px;
   overflow: hidden;
 }
-/* line 172, ../sass/pages/_about.scss */
+/* line 173, ../sass/pages/_about.scss */
 .page-about .team .team-member .image-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
-/* line 180, ../sass/pages/_about.scss */
+/* line 181, ../sass/pages/_about.scss */
 .page-about .team .team-member .name {
   font-size: 26px;
   font-weight: 700;
   color: #393D3E;
   margin: 20px 0;
 }
-/* line 187, ../sass/pages/_about.scss */
+/* line 188, ../sass/pages/_about.scss */
 .page-about .team .team-member .position {
   font-size: 17px;
   font-weight: 700;
   color: #7B7B7B;
   margin-bottom: 20px;
 }
-/* line 194, ../sass/pages/_about.scss */
+/* line 195, ../sass/pages/_about.scss */
 .page-about .team .team-member .mail {
   font-size: 17px;
   color: #325781;
   margin-bottom: 20px;
 }
-/* line 200, ../sass/pages/_about.scss */
+/* line 201, ../sass/pages/_about.scss */
 .page-about .team .team-member .description {
   font-size: 15px;
   color: #7B7B7B;
@@ -3795,7 +3796,7 @@ footer .copyright p {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 200, ../sass/pages/_about.scss */
+  /* line 201, ../sass/pages/_about.scss */
   .page-about .team .team-member .description {
     display: block;
   }
