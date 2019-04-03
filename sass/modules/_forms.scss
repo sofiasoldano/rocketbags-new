@@ -3,7 +3,7 @@ label{
     font-size: 21px;
 }
 
-input{
+input[type=text], input[type=email], input[type=tel], input[type=number], textarea{
     width: 100%;
     border: none;
     background: none;
@@ -31,6 +31,17 @@ input{
             width: auto;
         }
     }
+}
+input[type=radio]{
+    margin-right: 10px;
+    margin-left: 20px;
+    
+    &:first-of-type{
+        margin-left: 0;
+    }
+}
+textarea{
+    min-height: 200px;
 }
 
 .input-container{

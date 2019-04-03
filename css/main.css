@@ -104,7 +104,7 @@ label {
 }
 
 /* line 6, ../sass/modules/_forms.scss */
-input {
+input[type=text], input[type=email], input[type=tel], input[type=number], textarea {
   width: 100%;
   border: none;
   background: none;
@@ -114,48 +114,63 @@ input {
   font-size: 18px;
 }
 /* line 16, ../sass/modules/_forms.scss */
-input::placeholder {
+input[type=text]::placeholder, input[type=email]::placeholder, input[type=tel]::placeholder, input[type=number]::placeholder, textarea::placeholder {
   color: #797C94;
 }
 /* line 20, ../sass/modules/_forms.scss */
-input:active, input:focus, input:visited {
+input[type=text]:active, input[type=text]:focus, input[type=text]:visited, input[type=email]:active, input[type=email]:focus, input[type=email]:visited, input[type=tel]:active, input[type=tel]:focus, input[type=tel]:visited, input[type=number]:active, input[type=number]:focus, input[type=number]:visited, textarea:active, textarea:focus, textarea:visited {
   background: none;
   outline: none;
 }
 /* line 25, ../sass/modules/_forms.scss */
-input.submit {
+input[type=text].submit, input[type=email].submit, input[type=tel].submit, input[type=number].submit, textarea.submit {
   border: 0;
   padding: 20px;
 }
 @media (min-width: 768px) {
   /* line 25, ../sass/modules/_forms.scss */
-  input.submit {
+  input[type=text].submit, input[type=email].submit, input[type=tel].submit, input[type=number].submit, textarea.submit {
     padding: 8px 25px;
     width: auto;
   }
 }
 
-/* line 36, ../sass/modules/_forms.scss */
+/* line 35, ../sass/modules/_forms.scss */
+input[type=radio] {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+/* line 39, ../sass/modules/_forms.scss */
+input[type=radio]:first-of-type {
+  margin-left: 0;
+}
+
+/* line 43, ../sass/modules/_forms.scss */
+textarea {
+  min-height: 200px;
+}
+
+/* line 47, ../sass/modules/_forms.scss */
 .input-container {
   width: 100%;
   display: inline-block;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
-  /* line 36, ../sass/modules/_forms.scss */
+  /* line 47, ../sass/modules/_forms.scss */
   .input-container {
     width: 48%;
   }
 }
 
-/* line 46, ../sass/modules/_forms.scss */
+/* line 57, ../sass/modules/_forms.scss */
 .form-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-/* line 53, ../sass/modules/_forms.scss */
+/* line 64, ../sass/modules/_forms.scss */
 .attach-file label {
   color: #979797;
   font-size: 16px;
@@ -172,7 +187,7 @@ input.submit {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* line 70, ../sass/modules/_forms.scss */
+/* line 81, ../sass/modules/_forms.scss */
 .choose-color {
   width: 182px;
   border: 0;
@@ -191,7 +206,7 @@ input.submit {
   padding-right: 50px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-/* line 88, ../sass/modules/_forms.scss */
+/* line 99, ../sass/modules/_forms.scss */
 .choose-color:active, .choose-color:focus, .choose-color:visited {
   outline: none;
 }
@@ -206,12 +221,13 @@ input.submit {
   font-size: 16px;
   padding: 8px 25px;
   letter-spacing: 0.2px;
+  border: 0;
 }
-/* line 11, ../sass/modules/_buttons.scss */
+/* line 12, ../sass/modules/_buttons.scss */
 .btn-full.blue-bg {
   background-color: #325781;
 }
-/* line 15, ../sass/modules/_buttons.scss */
+/* line 16, ../sass/modules/_buttons.scss */
 .btn-full.arrow-down {
   background-image: url(img/icons/arrow-white-down.png);
   background-repeat: no-repeat;
@@ -219,7 +235,7 @@ input.submit {
   background-size: 10px;
   padding-right: 50px;
 }
-/* line 23, ../sass/modules/_buttons.scss */
+/* line 24, ../sass/modules/_buttons.scss */
 .btn-full.arrow-right {
   background-image: url(img/icons/arrow-white-right.png);
   background-repeat: no-repeat;
@@ -227,24 +243,24 @@ input.submit {
   background-size: 8px;
   padding-right: 45px;
 }
-/* line 31, ../sass/modules/_buttons.scss */
+/* line 32, ../sass/modules/_buttons.scss */
 .btn-full.upper {
   text-transform: uppercase;
 }
-/* line 35, ../sass/modules/_buttons.scss */
+/* line 36, ../sass/modules/_buttons.scss */
 .btn-full:hover {
   color: #FFFFFF;
   background-color: #af2b45;
 }
 
-/* line 41, ../sass/modules/_buttons.scss */
+/* line 42, ../sass/modules/_buttons.scss */
 .red-lnk {
   font-size: 16px;
   font-weight: 700;
   color: #D63F52;
   text-transform: uppercase;
 }
-/* line 47, ../sass/modules/_buttons.scss */
+/* line 48, ../sass/modules/_buttons.scss */
 .red-lnk.arrow-right {
   background-image: url(img/icons/arrow-red-right.png);
   background-repeat: no-repeat;
@@ -252,7 +268,7 @@ input.submit {
   background-size: 10px;
   padding-right: 20px;
 }
-/* line 54, ../sass/modules/_buttons.scss */
+/* line 55, ../sass/modules/_buttons.scss */
 .red-lnk.arrow-down {
   background-image: url(img/icons/arrow-red-down.png);
   background-repeat: no-repeat;
@@ -260,7 +276,7 @@ input.submit {
   background-size: 10px;
   padding-right: 20px;
 }
-/* line 61, ../sass/modules/_buttons.scss */
+/* line 62, ../sass/modules/_buttons.scss */
 .red-lnk.arrow-up {
   background-image: url(img/icons/arrow-red-up.png);
   background-repeat: no-repeat;
@@ -3459,5 +3475,93 @@ footer .copyright p {
   /* line 204, ../sass/pages/_single.scss */
   .page-single .related-posts .col-6:nth-of-type(4) {
     display: block;
+  }
+}
+
+/* line 2, ../sass/pages/_contact.scss */
+.page-contact .main {
+  background: linear-gradient(#ffffff 50%, #ececec);
+}
+/* line 5, ../sass/pages/_contact.scss */
+.page-contact .main .form-container {
+  background: #F4F4F4;
+  padding: 40px 0;
+  box-shadow: 0 20px 20px -15px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  position: relative;
+}
+@media (min-width: 768px) {
+  /* line 5, ../sass/pages/_contact.scss */
+  .page-contact .main .form-container {
+    padding: 60px;
+    background-image: linear-gradient(#f4f4f4 45%, #ffffff);
+    margin-bottom: -200px;
+  }
+}
+/* line 18, ../sass/pages/_contact.scss */
+.page-contact .main .form-container .title {
+  text-align: center;
+  color: #325781;
+  font-size: 33px;
+  margin-bottom: 50px;
+}
+/* line 25, ../sass/pages/_contact.scss */
+.page-contact .main .form-container label {
+  font-size: 18px;
+  color: #7B7B7B;
+}
+/* line 30, ../sass/pages/_contact.scss */
+.page-contact .main .form-container .subtitle {
+  font-size: 21px;
+  color: #7B7B7B;
+  margin-bottom: 20px;
+  overflow: hidden;
+  display: block;
+}
+/* line 38, ../sass/pages/_contact.scss */
+.page-contact .main .form-container .input-container {
+  width: 100%;
+}
+/* line 43, ../sass/pages/_contact.scss */
+.page-contact .main .box {
+  background: #FFFFFF;
+  padding: 50px;
+  margin: 40px 0;
+}
+@media (min-width: 768px) {
+  /* line 43, ../sass/pages/_contact.scss */
+  .page-contact .main .box {
+    margin: 40px 30px;
+  }
+}
+/* line 52, ../sass/pages/_contact.scss */
+.page-contact .main .box p {
+  margin-bottom: 0;
+}
+/* line 57, ../sass/pages/_contact.scss */
+.page-contact .main .btn-full {
+  margin-bottom: 30px;
+}
+/* line 60, ../sass/pages/_contact.scss */
+.page-contact .main .btn-full.submit {
+  margin-bottom: 100px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  /* line 60, ../sass/pages/_contact.scss */
+  .page-contact .main .btn-full.submit {
+    margin-bottom: 0;
+    width: auto;
+  }
+}
+/* line 73, ../sass/pages/_contact.scss */
+.page-contact .map iframe {
+  width: 100%;
+  height: 500px;
+}
+@media (min-width: 768px) {
+  /* line 73, ../sass/pages/_contact.scss */
+  .page-contact .map iframe {
+    height: 800px;
   }
 }
