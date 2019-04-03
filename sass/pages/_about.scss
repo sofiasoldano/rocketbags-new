@@ -201,6 +201,11 @@
                 font-size: 15px;
                 color: #7B7B7B;
                 line-height: 1.8;
+                display: none;
+                
+                @include respond-to('small'){
+                    display: block;
+                }
             }
         }
     }

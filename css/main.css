@@ -3792,4 +3792,11 @@ footer .copyright p {
   font-size: 15px;
   color: #7B7B7B;
   line-height: 1.8;
+  display: none;
+}
+@media (min-width: 768px) {
+  /* line 200, ../sass/pages/_about.scss */
+  .page-about .team .team-member .description {
+    display: block;
+  }
 }
