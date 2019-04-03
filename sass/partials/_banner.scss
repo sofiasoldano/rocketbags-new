@@ -44,6 +44,7 @@
         text-align: center;
         position: relative;
         z-index: 2;
+        overflow: hidden;
             
         @include respond-to('medium'){
             text-align: left;
@@ -55,6 +56,19 @@
         
         .title{
             font-size: 26px;
+        }
+        
+        .quote{
+            font-size: 32px;
+            font-style: italic;
+            font-weight: $light;
+        }
+        
+        .author{
+            font-size: 21px;
+            font-weight: $bold;
+            float: right;
+            margin-bottom: 0;
         }
     }
 }

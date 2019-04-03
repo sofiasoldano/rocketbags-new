@@ -99,6 +99,21 @@ $(document).ready(function() {
             itemMargin: 20,
         });
         
+         $('.team-slider').addClass('flexslider');
+        $('.team-slider').flexslider({
+            selector: '.row > .col-md-6',
+            animation: "slide",
+            animationLoop: false,
+            slideshow: true,
+            animationLoop: true,
+            directionNav: false,
+            controlNav: true,
+            itemWidth: 500,
+            minItems: 1,
+            maxItems: 1
+        });
+        
+        
         if( $('#features-list').length ) {
             $('#features-list').removeClass('show');
         }

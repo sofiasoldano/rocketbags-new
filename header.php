@@ -31,7 +31,7 @@
                     <li><a <?php if ( $page_name == "home" ) echo 'class="active"'; ?> href="page-home.php">Home</a></li>
                     <li><a <?php if ( $page_name == "category" ) echo 'class="active"'; ?> href="page-category.php">Bags</a></li>
                     <li><a <?php if ( $page_name == "tailor-made" ) echo 'class="active"'; ?> href="page-tailor-made.php">Tailor-made bags</a></li>
-                    <li><a <?php if ( $page_name == "about" ) echo 'class="active"'; ?> href="">About</a></li>
+                    <li><a <?php if ( $page_name == "about" ) echo 'class="active"'; ?> href="page-about.php">About</a></li>
                     <li><a <?php if ( $page_name == "blog" ) echo 'class="active"'; ?> href="index.php">Blog</a></li>
                     <li><a <?php if ( $page_name == "contact" ) echo 'class="active"'; ?> href="page-contact.php">Contact</a></li>
                     <li><a href="" class="btn-full upper">Quick Quote</a></li>

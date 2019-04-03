@@ -1408,6 +1408,7 @@ footer .copyright p {
   text-align: center;
   position: relative;
   z-index: 2;
+  overflow: hidden;
 }
 @media (min-width: 990px) {
   /* line 41, ../sass/partials/_banner.scss */
@@ -1415,13 +1416,26 @@ footer .copyright p {
     text-align: left;
   }
 }
-/* line 52, ../sass/partials/_banner.scss */
+/* line 53, ../sass/partials/_banner.scss */
 .banner .box p {
   font-size: 21px;
 }
-/* line 56, ../sass/partials/_banner.scss */
+/* line 57, ../sass/partials/_banner.scss */
 .banner .box .title {
   font-size: 26px;
+}
+/* line 61, ../sass/partials/_banner.scss */
+.banner .box .quote {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 300;
+}
+/* line 67, ../sass/partials/_banner.scss */
+.banner .box .author {
+  font-size: 21px;
+  font-weight: 700;
+  float: right;
+  margin-bottom: 0;
 }
 
 /* line 1, ../sass/partials/_unique-bag.scss */
@@ -1679,6 +1693,11 @@ footer .copyright p {
   .get-quote .form-container .submit {
     padding-right: 58px;
   }
+}
+/* line 29, ../sass/partials/_get-quote.scss */
+.get-quote .full {
+  width: 100%;
+  text-align: right;
 }
 
 /* line 1, ../sass/partials/_faqs.scss */
@@ -3564,4 +3583,213 @@ footer .copyright p {
   .page-contact .map iframe {
     height: 800px;
   }
+}
+
+/* line 2, ../sass/pages/_about.scss */
+.page-about header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 8, ../sass/pages/_about.scss */
+.page-about .hero {
+  padding-top: 250px;
+  padding-bottom: 0;
+}
+@media (min-width: 990px) {
+  /* line 8, ../sass/pages/_about.scss */
+  .page-about .hero {
+    padding-bottom: 100px;
+  }
+  /* line 15, ../sass/pages/_about.scss */
+  .page-about .hero:before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0), #000000);
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.4;
+  }
+}
+/* line 29, ../sass/pages/_about.scss */
+.page-about .hero .background img {
+  object-position: 65% 0%;
+}
+@media (min-width: 990px) {
+  /* line 29, ../sass/pages/_about.scss */
+  .page-about .hero .background img {
+    object-position: center;
+  }
+}
+/* line 38, ../sass/pages/_about.scss */
+.page-about .hero .hero-title {
+  max-width: 65%;
+}
+@media (min-width: 990px) {
+  /* line 38, ../sass/pages/_about.scss */
+  .page-about .hero .hero-title {
+    max-width: 100%;
+  }
+}
+/* line 46, ../sass/pages/_about.scss */
+.page-about .hero .partners-hero {
+  display: none;
+}
+@media (min-width: 990px) {
+  /* line 46, ../sass/pages/_about.scss */
+  .page-about .hero .partners-hero {
+    display: block;
+  }
+}
+/* line 57, ../sass/pages/_about.scss */
+.page-about .get-quote .description p {
+  color: #7B7B7B;
+}
+@media (max-width: 768px) {
+  /* line 62, ../sass/pages/_about.scss */
+  .page-about .get-quote .submit {
+    width: 100%;
+    padding: 12px;
+  }
+}
+/* line 70, ../sass/pages/_about.scss */
+.page-about .main {
+  background: linear-gradient(#ffffff 92%, #f0f0f0);
+  overflow: hidden;
+  position: relative;
+}
+/* line 76, ../sass/pages/_about.scss */
+.page-about .main .items .row {
+  align-items: center;
+  margin: 50px 0 100px;
+  position: relative;
+  z-index: 1;
+}
+/* line 82, ../sass/pages/_about.scss */
+.page-about .main .items .row.reverse {
+  flex-direction: row-reverse;
+}
+/* line 87, ../sass/pages/_about.scss */
+.page-about .main .items .title {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+/* line 93, ../sass/pages/_about.scss */
+.page-about .main .items p {
+  line-height: 1.9;
+  color: #7B7B7B;
+}
+/* line 98, ../sass/pages/_about.scss */
+.page-about .main .items img {
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* line 105, ../sass/pages/_about.scss */
+  .page-about .main:after {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 1050px;
+    left: -25%;
+    top: calc(50% - 360px);
+    background: rgba(204, 204, 204, 0.12);
+    z-index: 0;
+    transform: rotate(-5deg);
+  }
+}
+/* line 119, ../sass/pages/_about.scss */
+.page-about .team {
+  padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  /* line 123, ../sass/pages/_about.scss */
+  .page-about .team .title-description .bg {
+    font-size: 75px;
+    line-height: 2;
+  }
+}
+@media (min-width: 990px) {
+  /* line 131, ../sass/pages/_about.scss */
+  .page-about .team .container {
+    max-width: 1400px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 136, ../sass/pages/_about.scss */
+  .page-about .team .container .row {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  /* line 142, ../sass/pages/_about.scss */
+  .page-about .team .container .col-md-6 {
+    padding: 0;
+  }
+}
+/* line 149, ../sass/pages/_about.scss */
+.page-about .team .team-member {
+  text-align: center;
+  background: #FBFBFB;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 650px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  /* line 149, ../sass/pages/_about.scss */
+  .page-about .team .team-member {
+    margin: 0 -8px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 149, ../sass/pages/_about.scss */
+  .page-about .team .team-member {
+    max-height: 600px;
+  }
+}
+/* line 165, ../sass/pages/_about.scss */
+.page-about .team .team-member .image-container {
+  width: 170px;
+  height: 210px;
+  margin: 0 auto;
+  border-radius: 210px / 222px;
+  overflow: hidden;
+}
+/* line 172, ../sass/pages/_about.scss */
+.page-about .team .team-member .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* line 180, ../sass/pages/_about.scss */
+.page-about .team .team-member .name {
+  font-size: 26px;
+  font-weight: 700;
+  color: #393D3E;
+  margin: 20px 0;
+}
+/* line 187, ../sass/pages/_about.scss */
+.page-about .team .team-member .position {
+  font-size: 17px;
+  font-weight: 700;
+  color: #7B7B7B;
+  margin-bottom: 20px;
+}
+/* line 194, ../sass/pages/_about.scss */
+.page-about .team .team-member .mail {
+  font-size: 17px;
+  color: #325781;
+  margin-bottom: 20px;
+}
+/* line 200, ../sass/pages/_about.scss */
+.page-about .team .team-member .description {
+  font-size: 15px;
+  color: #7B7B7B;
+  line-height: 1.8;
 }

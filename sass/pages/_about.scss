@@ -1,0 +1,207 @@
+.page-about{
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .hero{
+        padding-top: 250px;
+        padding-bottom: 0;
+
+        @include respond-to('medium'){
+            padding-bottom: 100px;
+            
+            &:before{
+                content: "";
+                position: absolute;
+                background: linear-gradient(transparent , #000000);
+                width: 100%;
+                height: 50%;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+                opacity: 0.4;
+            }
+        }
+        
+        .background{
+            img{
+                object-position: 65% 0%;
+                
+                @include respond-to('medium'){
+                    object-position: center;
+                }
+            }
+        }
+        
+        .hero-title{
+            max-width: 65%;
+            
+            @include respond-to('medium'){
+                 max-width: 100%;
+            }
+        }
+        
+        .partners-hero{
+            display: none;
+            
+            @include respond-to('medium'){
+                display: block;
+            }
+        }
+    }
+    
+    .get-quote{
+        .description{
+            p{
+                color: #7B7B7B;
+            }   
+        }
+        
+        .submit{
+            @include respond-to('xsmall'){
+                width: 100%;
+                padding: 12px;
+            }
+        }
+    }
+    
+    .main{
+        background: linear-gradient(#ffffff 92%, #f0f0f0);
+        overflow: hidden;
+        position: relative;
+        
+        .items{  
+            .row{
+                align-items: center;
+                margin: 50px 0 100px;
+                position: relative;
+                z-index: 1;
+
+                &.reverse{
+                     flex-direction: row-reverse;
+                }
+            }
+
+            .title{
+                line-height: 1.5;
+                margin-bottom: 20px;
+                text-transform: capitalize;
+            }
+            
+            p{
+                line-height: 1.9;
+                color: #7B7B7B;
+            }
+            
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        
+        @include respond-to('small'){
+            &:after{
+                content: "";
+                position: absolute;
+                width: 150%;
+                height: 1050px;
+                left: -25%;
+                top: calc(50% - 360px);
+                background: rgba(204, 204, 204, 0.12);
+                z-index: 0;
+                transform: rotate(-5deg);
+            }
+        }
+    }
+    
+    .team{
+        padding-bottom: 50px;
+        
+        .title-description{
+            .bg{
+                @include respond-to('xsmall'){
+                    font-size: 75px;
+                    line-height: 2;
+                }
+            }
+        }
+        
+        .container{
+            @include respond-to('medium'){
+                max-width: 1400px;
+            }
+            
+            .row{
+                @include respond-to('xsmall'){
+                    margin: 0;
+                }
+            }
+            
+            .col-md-6{
+                @include respond-to('xsmall'){
+                    padding: 0;
+                }
+            }
+        }
+        
+        .team-member{
+            text-align: center;
+            background: #FBFBFB;
+            border-radius: 10px;
+            padding: 20px;
+            max-height: 650px;
+            margin-bottom: 50px;
+            
+            @include respond-to('small'){
+                margin: 0 -8px;
+            }
+    
+            @include respond-to('large'){
+                max-height: 600px;
+            }
+            
+            .image-container{
+                width: 170px;
+                height: 210px;
+                margin: 0 auto;
+                border-radius: 210px / 222px;
+                overflow: hidden;
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            
+            .name{
+                font-size: 26px;
+                font-weight: $bold;
+                color: #393D3E;
+                margin: 20px 0;
+            }
+            
+            .position{
+                font-size: 17px;
+                font-weight: $bold;
+                color: #7B7B7B;
+                margin-bottom: 20px;
+            }
+            
+            .mail{
+                font-size: 17px;
+                color: $blue;
+                margin-bottom: 20px;
+            }
+            
+            .description{
+                font-size: 15px;
+                color: #7B7B7B;
+                line-height: 1.8;
+            }
+        }
+    }
+}
