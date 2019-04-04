@@ -1,3 +1,61 @@
+
+<div class="modal fade" id="quick-quote" tabindex="-1" role="dialog" aria-labelledby="quick-quote" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="title-description mb-0">
+                    <p>Got a Question About Stock or Tailor-Made Bags? <br class="hidden-xs"><b>We'll get back to you within 2 hours</b></p>
+                </div>
+                
+                <form>
+                    <div class="form-container">
+                        <div class="title">Get a Quick Quote</div>
+                        <div class="subtitle">How can we help you?</div>
+                        <div class="overflow-hidden">
+                            <div class="left">
+                                <div class="title-input">What products are you interested in?</div>
+                                <input type="radio" id="custom" value="custom" name="product"><label for="custom">100% custom, tailor-made bags</label><br>
+                                <input type="radio" id="stock" value="stock" name="product"><label for="stock">Stock bags with my logo or design added</label>
+                            </div>
+                            <div class="right">
+                                <div class="title-input">Upload logo or design (optional)</div>
+                                <input id="file" name="file" type="file">
+                                <p class="file-size">Maximun file size: 2mb</p>
+                            </div>
+                        </div>
+                        <div class="subtitle">Quantity required</div>
+                        <div class="input-container">
+                            <input type="number" name="quantity" placeholder="Quantity">
+                        </div>
+                        <div class="subtitle">Do you have a specific bag or type of bag in mind?</div>
+                        <p>Giving us as much information as possible about the type of bag you are looking for (along with any other details like ideal price, examples of bags you like, etc.) will help us to provide you with the best options to meet your needs and budget.</p>
+                        <textarea name="message" placeholder="Tell us about your project"></textarea>
+                        
+                        <div class="subtitle">Tell us a little about yourself</div>
+                        <div class="input-container">
+                            <input id="name" type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="input-container">
+                            <input id="company" type="text" name="company" placeholder="Company">
+                        </div>
+                        <div class="input-container">
+                            <input id="telephone" type="tel" name="telephone" placeholder="Phone">
+                        </div>
+                        <div class="input-container">
+                            <input id="email" type="email" name="email" placeholder="Email">
+                        </div>
+                        <p>Please note, some of our bags require a minimum number of units to be ordered. Our friendly team will give you more information and options when they get back to you if the quantity you have specified does not meet thiis minimum requirement.</p>
+                        <input type="submit" class="submit btn-full upper" value="Send me a quote">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
     <footer>
         <div class="container">
             <div class="row">

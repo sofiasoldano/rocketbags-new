@@ -34,7 +34,7 @@
                     <li><a <?php if ( $page_name == "about" ) echo 'class="active"'; ?> href="page-about.php">About</a></li>
                     <li><a <?php if ( $page_name == "blog" ) echo 'class="active"'; ?> href="index.php">Blog</a></li>
                     <li><a <?php if ( $page_name == "contact" ) echo 'class="active"'; ?> href="page-contact.php">Contact</a></li>
-                    <li><a href="" class="btn-full upper">Quick Quote</a></li>
+                    <li><button type="button" class="btn-full upper" data-toggle="modal" data-target="#quick-quote">Quick Quote</button></li>
                     <li><a href="" class="search-btn">Search</a></li>
                 </ul>
             </div>
