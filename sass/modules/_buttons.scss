@@ -9,8 +9,17 @@
     letter-spacing: 0.2px;
     border: 0;
     
+    &:hover{
+        color: $white;
+        background-color: #af2b45;
+    }
+    
     &.blue-bg{
         background-color: $blue;
+        
+        &:hover{
+            background-color: #274669;
+        }
     }
     
     &.arrow-down{
@@ -33,10 +42,7 @@
         text-transform: uppercase;
     }
     
-    &:hover{
-        color: $white;
-        background-color: #af2b45;
-    }
+    
 }
 
 .red-lnk{
