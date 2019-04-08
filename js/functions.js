@@ -118,6 +118,17 @@ $(document).ready(function() {
             $('#features-list').removeClass('show');
         }
         
+        if( $('.features-list').length || $('#features-list').length ) {
+            $('.feature').click(function() {
+                if($(this).hasClass("active")){
+                    $('.feature').removeClass("active");
+                } else{
+                    $('.feature').removeClass("active");
+                    $(this).addClass("active");
+                }
+            });
+        }
+        
     }
     
     if( $('.gallery').length ) {

@@ -23,7 +23,7 @@
         <div class="navigation">
             <div class="info">
                 <a class="mail-lnk" href="mailto:sales@rocketbags.co.uk">sales@rocketbags.co.uk</a>
-                <a class="tel-lnk" href="tel:03337000133">0333 7000 133</a>
+                <a class="tel-lnk btn-full" href="tel:03337000133">0333 7000 133</a>
                 <img src="img/header-logos.png" width="150" alt="Certifications">
             </div>
             <div class="sections">

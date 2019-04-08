@@ -119,6 +119,18 @@ footer{
             padding-left: 51px;
             margin-left: -12px;
             background-position: 13px 7px;
+            transition: all 0.5s;
+            
+            &:hover{
+                background-color: $white;
+                background-image: url(img/icons/phone-blue.png);
+                transition: all 0.5s;
+                
+                a{
+                    color: $blue;
+                }
+                
+            }
             
             .call{
                 font-size: 12px;

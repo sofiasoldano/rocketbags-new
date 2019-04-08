@@ -166,6 +166,112 @@
                             <div class="btn-full upper">View product</div>
                         </a>
                     </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a href="#" class="product">
+                            <div class="img-container">
+                                <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                            </div>
+                            <p class="name">Backpacks & Rucksacks </p>
+                            <div class="btn-full upper">View product</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6 right">
+                        <div class="cant-find">
+                            <div class="title">Can't find what you're looking for? <br> Give us a call ...</div>
+                            <a href="#" class="btn-full">Send Us a Quote Request </a>
+                            <a href="#" class="btn-full blue-bg">Get in Touch Today</a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -213,6 +319,28 @@
                             <p>Could cost less than a stock bag!</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-description mb-0 mt-0">
+                    <p>#1 Manufacturer of Custom <b>Promotional Bags in the UK</b></p>
+                </div>
+                <div class="text-description">
+                    <div class="container-content-show-more">							
+                        <div class="content-show-more more" data-chars="75" >
+                        
+                            <p><b class="blue">At Rocket Bags, we make it easy to order the perfect custom made bags for your business.</b> When you work with us, you can expect the service, quality and expertise that only comes from supplying promotional bags to the UK’s leading organisations for more than 25 years. From the time you get in touch, to the moment you have your corporate branded bags in hand, we’ll work hard to ensure that you’re 100% satisfied with the service and products you receive. There’s a reason why we’re the leading promotional bag manufacturer in the UK!</p>
+                        </div>
+                        
+                    </div>
+
                 </div>
             </div>
         </div>

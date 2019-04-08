@@ -79,4 +79,29 @@
         }
     }
 
+    .right{
+        margin-left: auto;
+    }
+    
+    .cant-find{
+        text-align: center;
+        background-image: linear-gradient(#e5e5e5, #fbfbfb);
+        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+        padding: 20px 0 5px;
+        
+        .title{
+            color: $blue;
+            font-weight: $bold;
+            font-size: 26px;
+        }
+        
+        .btn-full{
+            max-width: 100%;
+            display: block;
+            font-size: 19px;
+            width: 325px;
+            margin: 18px auto;
+            padding: 12px;
+        }
+    }
 }
