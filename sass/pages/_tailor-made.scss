@@ -1,5 +1,10 @@
 .page-tailor-made{
     .hero{
+        padding-top: 200px;
+        
+        @include respond-to('medium'){
+            padding-top: 100px;
+        }
         .background{
             img{
                 object-position: 65% 0%;

@@ -12,14 +12,14 @@
                     </div>
                     <h1 class="hero-title">100% Unique <b>Tailor-Made Bags</b></h1>
                     <p>Not only can tailor-made bags be created exactly to your brand specifications, they can also be save you a lot of money as well compared to stock bags!</p>
-                    <a href="#" class="btn-full arrow-down">Learn More About Tailor-made Bags</a>
+                    <a href="#" class="btn-full arrow-down scroll-to-lnk">Learn More About Tailor-made Bags</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section>
+<section class="scroll-to">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

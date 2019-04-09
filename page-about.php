@@ -12,7 +12,7 @@
                     </div>
                     <h1 class="hero-title"><b>We’re the #1 Promotional Bag Manufacturer in the UK </b></h1>
                     <p>We’ve been helping UK business make promotional bags for 25+ years. Last year alone we produced over 350,000 bags for brands you know and love, and as a quality-certified ISO9001 company, we’re proud to provide the country’s best custom bag guidance, service and reliability.</p>
-                    <a href="#" class="btn-full arrow-down">Find your Perfect Bag</a>
+                    <a href="#" class="btn-full arrow-down scroll-to-lnk">Find your Perfect Bag</a>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
     </div>
 </section>
 
-<section class="main">
+<section class="main scroll-to">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

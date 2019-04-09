@@ -12,14 +12,14 @@
                     </div>
                     <h1 class="hero-title"><b>Backpacks & Rucksacks</b></h1>
                     <p>Promotional backpacks & rucksacks have universal appeal across all age groups and market sectors. Clients who use these range from schools and clubs to banks and blue chip corporates. With hundreds of designs, colours and fittings you can be sure that  there is a Rocket Bag for you!</p>
-                    <a href="#" class="btn-full arrow-down">Find youy Perfect Bag</a>
+                    <a href="#" class="btn-full arrow-down scroll-to-lnk">Find youy Perfect Bag</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="main">
+<section class="main scroll-to">
     <div class="filters">
         <ul class="nav nav-tabs">
           <li class="dropdown">

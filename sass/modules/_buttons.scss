@@ -5,13 +5,15 @@
     font-weight: $bold;
     border-radius: 50px;
     font-size: 16px;
-    padding: 8px 25px;
+    padding: 12px 30px;
     letter-spacing: 0.2px;
     border: 0;
+    transition: all 0.5s;
     
     &:hover{
         color: $white;
         background-color: #af2b45;
+        transition: all 0.5s;
     }
     
     &.blue-bg{
@@ -50,6 +52,18 @@
     font-weight: $bold;
     color: $red;
     text-transform: uppercase;
+    position: relative;
+    
+    &:after{
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background: $red;
+        left: 50%;
+        bottom: -8px;
+        transition: all 0.5s;
+    }
     
     &.arrow-right{
         background-image: url(img/icons/arrow-red-right.png);
@@ -71,5 +85,15 @@
         background-position: right center;
         background-size: 10px;
         padding-right: 20px;
+    }
+    
+    &:hover{
+        color: $red;
+        
+        &:after{
+            width: 100%;
+            left: 0;
+            transition: all 0.5s;
+        }
     }
 }

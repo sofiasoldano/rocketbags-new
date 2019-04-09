@@ -1,8 +1,10 @@
 .page-category{
     header{
-        position: absolute;
-        top: 0;
-        left: 0;
+        @include respond-to('medium'){
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
     }
     
     .hero{

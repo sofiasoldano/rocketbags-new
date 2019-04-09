@@ -9,7 +9,7 @@
                 <div class="content">
                     <h1 class="hero-title">Promote your Brand <b>With our Bags.</b></h1>
                     <p>Adipiscing elit, sed do eiusmod tempor incididunt adipiscing elit  sed do eiusmod tempor incididunt  adipiscing elit sed .</p>
-                    <a href="#" class="btn-full arrow-down">Find your Perfect Bag</a>
+                    <a href="#" class="btn-full arrow-down scroll-to-lnk">Find your Perfect Bag</a>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
     </div>
 </section>
 
-<section class="main">
+<section class="main scroll-to">
     <ul class="nav nav-tabs">
         <li>
             <a data-toggle="tab" href="#s-quick" class="active lnk-quick">

@@ -1,5 +1,9 @@
 .page-product{
-    
+    padding-top: 100px;
+        
+    @include respond-to('medium'){
+        padding-top: 0;
+    }
     .single-features{
         
         #accordion{

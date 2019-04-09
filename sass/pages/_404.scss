@@ -1,5 +1,10 @@
 .page-404{
     background: rgba(204, 204, 204, 0.1);
+    padding-top: 100px;
+        
+    @include respond-to('medium'){
+        padding-top: 0;
+    }
     
     .content{
         margin: 50px 0;

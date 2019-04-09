@@ -1,14 +1,40 @@
 $(document).ready(function() {
-    /*$(".menu-icon").click(function(){
+    $(".menu-icon").click(function(){
         if($(this).hasClass("open")){
-            $("header .mobile-navigation .sections").removeClass("show");  
+            $("header .navigation").removeClass("show");  
             $(this).removeClass("open");
         } else{
-            $("header mobile-navigation .sections").addClass("show");  
+            $("header .navigation").addClass("show");  
             $(this).addClass("open");
         }
-    });*/
+    });
     
+    $(".scroll-to-lnk").click( function(){
+		event.preventDefault();
+		$('html, body').animate({
+		    scrollTop: $(".scroll-to").offset().top
+		}, 800);
+	});
+
+    var hide = false;
+    $('body').click( function(){
+        if (hide) $('.search-input').removeClass('active');
+        hide = true;
+    });
+    $(".search-btn").click( function(){
+		event.preventDefault();
+		$(".search-input").addClass('active');
+        hide = false;
+	});
+    $(".search-input").click( function(){
+		$(".search-input").addClass('active');
+        hide = false;
+	});
+    
+    $(".categories-lnk").click( function(){
+        event.preventDefault();
+    });
+
     $('.partners-hero-slider').flexslider({
         animation: "slide",
         animationLoop: false,
@@ -129,6 +155,19 @@ $(document).ready(function() {
             });
         }
         
+        var dropdownHeight = $('.categories-dropdown').outerHeight();
+        console.log(dropdownHeight);
+        $('.categories-dropdown').css('height', 0);
+        
+        $(".categories-lnk").click( function(){
+            if($('.categories-dropdown').hasClass("active")){
+                $('.categories-dropdown').removeClass("active");
+                $('.categories-dropdown').css('height', 0);
+            } else{
+                $('.categories-dropdown').addClass("active");
+                $('.categories-dropdown').css('height', dropdownHeight);
+            }
+        });
     }
     
     if( $('.gallery').length ) {
@@ -181,7 +220,7 @@ function initReadMore(){
     charQuantity = parseInt(charQuantity);
 
     $('.content-show-more').readmore({
-        speed: 75,
+        speed: 200,
         collapsedHeight: charQuantity,
         embedCSS: false,
         blockCSS: 'display: block; width: 100%;',
@@ -189,3 +228,4 @@ function initReadMore(){
         lessLink: '<div class="morelink"><a href="#" class="arrow-up red-lnk">Read less</a></div>'
     });
 }
+

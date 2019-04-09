@@ -16,6 +16,11 @@ footer{
 
     a{
         color: $white;
+        
+        &:hover{
+            color: $white;
+            opacity: 0.8;
+        }
     }
     
     .first-row{
@@ -128,6 +133,7 @@ footer{
                 
                 a{
                     color: $blue;
+                    opacity: 1;
                 }
                 
             }
