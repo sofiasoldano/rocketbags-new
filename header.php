@@ -32,17 +32,28 @@
                     <li class="categories">
                         <a class="<?php if ( $page_name == "category" ) echo 'active'; ?> categories-lnk" href="page-category.php"> Bags</a>
                         <div class="categories-dropdown">
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
-                            <a href="#">Backpacks & Rucksacks </a>
+                            <div class="arrow"></div>
+                            <div class="description">
+                                <img src="img/dropdown.png" width="220">
+                                <div>
+                                    <p>Get your brand on the <b>UK's biggest range of  'ready-to-go'</b> promotional bags!</p>
+                                    <a class="red-lnk arrow-right" href="#">Find out more</a>
+                                </div>
+                            </div>
+                            <div class="links">
+                                <a href="#">Backpacks & Rucksacks </a>
+                                <a href="#">Bags for life</a>
+                                <a href="#">Beach bags</a>
+                                <a href="#">Conference & Exhibition</a>
+                                <a href="#">Cooler Bags </a>
+                                <a href="#">Cosmetic Bags</a>
+                                <a href="#">Drawstring Bags</a>
+                                <a href="#">Duffel Bags</a>
+                                <a href="#">Eco Friendly Bags</a>
+                                <a href="#">Laptop Bags</a>
+                                <a href="#">Paper Bags</a>
+                                <a href="#">Semi Custom</a>
+                            </div>
                         </div>
                     </li>
                     <li><a <?php if ( $page_name == "tailor-made" ) echo 'class="active"'; ?> href="page-tailor-made.php">Tailor-made bags</a></li>
