@@ -52,7 +52,7 @@
                                 <a href="#">Eco Friendly Bags</a>
                                 <a href="#">Laptop Bags</a>
                                 <a href="#">Paper Bags</a>
-                                <a href="#">Semi Custom</a>
+                                <a class="red-lnk arrow-right" href="#">View more</a>
                             </div>
                         </div>
                     </li>

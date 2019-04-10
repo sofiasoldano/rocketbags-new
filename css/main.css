@@ -996,8 +996,17 @@ header .navigation .sections li.categories .categories-dropdown .links a:last-of
     padding-bottom: 0;
   }
 }
+/* line 399, ../sass/partials/_header.scss */
+header .navigation .sections li.categories .categories-dropdown .links .red-lnk {
+  display: inline;
+  background-position: left 80px center;
+}
+/* line 403, ../sass/partials/_header.scss */
+header .navigation .sections li.categories .categories-dropdown .links .red-lnk:hover {
+  color: #D63F52;
+}
 @media (min-width: 990px) {
-  /* line 404, ../sass/partials/_header.scss */
+  /* line 413, ../sass/partials/_header.scss */
   header .navigation .sections li.categories:hover .categories-dropdown {
     opacity: 1;
     visibility: visible;
@@ -1005,12 +1014,12 @@ header .navigation .sections li.categories .categories-dropdown .links a:last-of
   }
 }
 @media (min-width: 990px) {
-  /* line 416, ../sass/partials/_header.scss */
+  /* line 425, ../sass/partials/_header.scss */
   header .mobile-navigation {
     display: none;
   }
 }
-/* line 422, ../sass/partials/_header.scss */
+/* line 431, ../sass/partials/_header.scss */
 header .mobile-navigation .tel-lnk {
   width: 28px;
   height: 28px;
@@ -1023,7 +1032,7 @@ header .mobile-navigation .tel-lnk {
   vertical-align: top;
   margin-right: 20px;
 }
-/* line 435, ../sass/partials/_header.scss */
+/* line 444, ../sass/partials/_header.scss */
 header .mobile-navigation .menu-icon {
   width: 35px;
   cursor: pointer;
@@ -1031,7 +1040,7 @@ header .mobile-navigation .menu-icon {
   margin-bottom: -7px;
   position: relative;
 }
-/* line 442, ../sass/partials/_header.scss */
+/* line 451, ../sass/partials/_header.scss */
 header .mobile-navigation .menu-icon .line {
   width: 100%;
   height: 4px;
@@ -1040,14 +1049,14 @@ header .mobile-navigation .menu-icon .line {
   background: #575757;
   transition: all 0.5s;
 }
-/* line 452, ../sass/partials/_header.scss */
+/* line 461, ../sass/partials/_header.scss */
 header .mobile-navigation .menu-icon.open .line {
   transform: rotate(45deg);
   transition: all 0.5s;
   position: absolute;
   top: -17px;
 }
-/* line 458, ../sass/partials/_header.scss */
+/* line 467, ../sass/partials/_header.scss */
 header .mobile-navigation .menu-icon.open .line:nth-of-type(2) {
   transform: rotate(-45deg);
 }
