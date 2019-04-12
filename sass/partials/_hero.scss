@@ -94,16 +94,18 @@
             .flex-prev{
                 left: 0;
                 opacity: 1;
-                top: 90%;
+                top: 80%;
                 font-size: 0;
 
                 &:before{
                     content: "";
-                    background-image: url(img/icons/arrow-white-left.png);
+                    background-image: url(img/icons.png);
                     background-repeat: no-repeat;
-                    background-size: contain;
-                    width: 12px;
-                    height: 12px;
+                    background-size: 48px;
+                    background-position-y: -679px;
+                    background-position-x: -10px;
+                    width: 20px;
+                    height: 20px;
                     display: block;
                 }
             }
@@ -114,7 +116,7 @@
                 right: 0;
 
                 &:before{
-                    background-image: url(img/icons/arrow-white-right.png);
+                    background-position-y: -323px;
                     float: right;
                 }
 

@@ -15,14 +15,12 @@
         }
         
         .submit{
-            background-image: url(img/icons/send.png);
+            background-position: right 10px center;
+            background-image: url(img/icons.png);
             background-repeat: no-repeat;
-            background-size: 22px;
-            background-position: right 20px center;
-            
-            @include respond-to('small'){
-                padding-right: 58px;
-            }
+            background-size: 48px;
+            background-position-y: -108px;
+            padding-right: 58px;
         }
     }
     

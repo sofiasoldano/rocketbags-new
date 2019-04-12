@@ -25,18 +25,20 @@
     }
     
     &.arrow-down{
-        background-image: url(img/icons/arrow-white-down.png);
+        background-image: url(img/icons.png);
         background-repeat: no-repeat;
-        background-position: right 20px center;
-        background-size: 10px;
+        background-size: 48px;
+        background-position: right 5px center;
+        background-position-y: -622px;
         padding-right: 50px;
     }
     
     &.arrow-right{
-        background-image: url(img/icons/arrow-white-right.png);
+        background-image: url(img/icons.png);
         background-repeat: no-repeat;
-        background-position: right 20px center;
-        background-size: 8px;
+        background-size: 48px;
+        background-position: right center;
+        background-position-y: -313px;
         padding-right: 45px;
     }
     
@@ -66,25 +68,28 @@
     }
     
     &.arrow-right{
-        background-image: url(img/icons/arrow-red-right.png);
+        background-image: url(img/icons.png);
         background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 10px;
+        background-size: 48px;
+        background-position: right -20px center;
+        background-position-y: -924px;
         padding-right: 20px;
     }
-     &.arrow-down{
-        background-image: url(img/icons/arrow-red-down.png);
+    &.arrow-down{
+        background-image: url(img/icons.png);
         background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 10px;
-        padding-right: 20px;
+        background-size: 36px;
+        background-position: right -10px center;
+        background-position-y: -573px;
+        padding-right: 25px;
     }
-     &.arrow-up{
-        background-image: url(img/icons/arrow-red-up.png);
+    &.arrow-up{
+        background-image: url(img/icons.png);
         background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 10px;
-        padding-right: 20px;
+        background-size: 48px;
+        background-position: right -15px center;
+        background-position-y: -722px;
+        padding-right: 25px;
     }
     
     &:hover{

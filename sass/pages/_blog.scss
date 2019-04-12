@@ -25,11 +25,7 @@
             .email{
                 display: inline-block;
                 width: 60%;
-                background-image: url(img/icons/mail-gray.png);
-                background-position: left 15px center;
-                background-repeat: no-repeat;
-                background-size: 20px;
-                padding-left: 28px;
+                background-position: left -1px center;
                 font-size: 16px;
                 color: #989898;
                 border: 1px solid #A2A2A2;
@@ -39,6 +35,10 @@
                 border-bottom-right-radius: 0;
                 padding: 12px;
                 padding-left: 45px;
+                background-image: url(img/icons.png);
+                background-repeat: no-repeat;
+                background-size: 55px;
+                background-position-y: -68px;
             }
             
             .btn-full{

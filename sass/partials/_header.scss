@@ -68,19 +68,20 @@ header{
                 margin: 0 15px;
                 
                 &.mail-lnk{
-                    background-image: url(img/icons/mail-gray.png);
+                    background-image: url(img/icons.png);
                     background-position: center left;
+                    background-position-y: -71px;
                     background-repeat: no-repeat;
-                    background-size: 17px;
-                    padding-left: 28px;
+                    background-size: 48px;
+                    padding-left: 43px;
                 }
                 
                 &.tel-lnk{
-                    background-image: url(img/icons/phone-white.png);
-                    background-position: center left;
-                    background-position-x: 12px;
+                    background-image: url(img/icons.png);
                     background-repeat: no-repeat;
-                    background-size: 17px;
+                    background-size: 48px;
+                    background-position: center left;
+                    background-position-y: -418px;
                     border-radius: 50px;
                     padding: 7px 20px;
                     padding-left: 40px;
@@ -112,21 +113,23 @@ header{
                 text-transform: uppercase;
                 
                  &.mail-lnk{
-                    background-image: url(img/icons/mail-gray.png);
                     background-position: center left;
-                    background-position-x: 19px;
-                    background-repeat: no-repeat;
-                    background-size: 22px;
+                    background-position-x: -8px;
                     padding-left: 56px;
+                    background-image: url(img/icons.png);
+                    background-repeat: no-repeat;
+                    background-size: 74px;
+                    background-position-y: -101px;
                 }
                 
                 &.tel-lnk{
-                    background-image: url(img/icons/phone-gray.png);
-                    background-position: center left;
-                    background-position-x: 12px;
+                    background-image: url(img/icons.png);
                     background-repeat: no-repeat;
-                    background-size: 22px;
-                    padding-left: 42px;
+                    background-size: 86px;
+                    background-position: center left;
+                    background-position-y: -666px;
+                    background-position-x: -18px;
+                    padding-left: 41px;
                 }
             }
         }
@@ -181,10 +184,11 @@ header{
                     &.search-btn{
                         width: 21px;
                         height: 22px;
-                        background-image: url(img/icons/search.png);
+                        background-image: url(img/icons.png);
                         background-position: center;
                         background-repeat: no-repeat;
-                        background-size: 21px;
+                        background-size: 48px;
+                        background-position-y: -179px;
                         font-size: 0;
                         border: 0;
                         display: inline-block;
@@ -270,15 +274,17 @@ header{
                 
                 &.categories{
                     .categories-lnk{
-                        background-image: url(img/icons/arrow-light-gray-down.png);
-                        background-position: right 20px center;
+                        background-image: url(img/icons.png);
+                        background-position: center;
                         background-repeat: no-repeat;
-                        background-size: 15px;
+                        background-size: 46px;
+                        background-position: right 20px center;
+                        background-position-y: -1003px; 
                         
                         @include respond-to('medium'){
-                            background-position: right center;
-                            background-size: 12px;
-                            padding-right: 21px
+                            background-position: right -16px center;
+                            padding-right: 23px;
+                            background-position-y: -1023px;
                         }
                     }
                     
@@ -398,10 +404,20 @@ header{
                             
                             .red-lnk{
                                 display: inline;
-                                background-position: left 80px center;
+                                background-position-y: -927px;
+                                background-position-x: 62px;
+                                
+                                &:after{
+                                    left: 45px;
+                                }
                                 
                                 &:hover{
                                     color: $red;
+                                    
+                                    &:after{
+                                        width: 90px;
+                                        left: 0;
+                                    }
                                 }
                             }
 
@@ -431,10 +447,11 @@ header{
         .tel-lnk{
             width: 28px;
             height: 28px;
-            background-image: url(img/icons/phone-lg.png);
             background-position: center;
+            background-image: url(img/icons.png);
             background-repeat: no-repeat;
-            background-size: contain;
+            background-size: 48px;
+            background-position-y: -11px;
             font-size: 0;
             display: inline-block;
             vertical-align: top;

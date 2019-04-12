@@ -33,11 +33,13 @@
                     height: 37px;
                     border-radius: 50px;
                     background-color: #F0F0F0;
-                    background-image: url(img/icons/pagination-next.png);
-                    background-position: center;
+                    background-image: url(img/icons.png);
                     background-repeat: no-repeat;
-                    background-size: 16px;
+                    background-size: 48px;
+                    background-position: center;
+                    background-position-y: -225px;
                     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.36);
+                    
                 }
             }
         }

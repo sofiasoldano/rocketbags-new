@@ -32,13 +32,16 @@
                     position: absolute;
                     width: 15px;
                     height: 15px;
-                    background-image: url(img/icons/arrow-blue-down.png);
+                    background-image: url(img/icons.png);
                     background-repeat: no-repeat;
-                    background-size: contain;
+                    background-size: 23px;
+                    background-position-y: -393px;
+                    background-position-x: -4px;
                     right: 20px;
                     top: calc(50% - 8px);
                     transform: rotate(180deg);
-                    transition: all 0.5s;
+                    transition: transform 0.5s;
+                    
                 }
                 
                 &.collapsed{
@@ -46,10 +49,11 @@
                     transition: all 0.5s;
                     
                     &:after{
-                        background-image: url(img/icons/arrow-light-gray-down.png);
+                        background-size: 43px;
+                        background-position-y: -956px;
+                        background-position-x: -14px;
                         transform: rotate(0);
-                        transition: all 0.5s;
-                        top: calc(50% - 2px);
+                        transition: transform 0.5s;
                     }
                 }
 

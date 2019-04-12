@@ -28,22 +28,28 @@
                 &:after{
                     content: "";
                     position: absolute;
-                    width: 18px;
+                    width: 26px;
                     top: 38px;
-                    height: 9px;
+                    height: 15px;
                     right: 30px;
-                    background-image: url(img/icons/arrow-blue-down.png);
+                    background-image: url(img/icons.png);
                     background-repeat: no-repeat;
-                    background-size: contain;
-                    transition: all 0.5s;
+                    background-size: 40px;
+                    background-position-y: -641px;
+                    background-position-x: -12px;
+                    transition: transform 0.5s;
                     transform: rotate(-180deg);
                 }
                 
                 &.collapsed{
                     &:after{
-                        background-image: url(img/icons/arrow-red-down.png);
+                        background-image: url(img/icons.png);
+                        background-repeat: no-repeat;
+                        background-size: 30px;
+                        background-position-y: -512px;
+                        background-position-x: -1px;
                         transform: rotate(0);
-                        transition: all 0.5s;
+                        transition: transform 0.5s;
                     }
                 }
                 
@@ -108,12 +114,14 @@
                     position: absolute;
                     width: 15px;
                     height: 9px;
-                    right: 30px;
-                    background-image: url(img/icons/arrow-blue-down.png);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    transition: all 0.5s;
+                    right: 33px;
+                    transition: transform 0.5s;
                     transform: rotate(0);
+                    background-image: url(img/icons.png);
+                    background-repeat: no-repeat;
+                    background-size: 21px;
+                    background-position-y: -358px;
+                    background-position-x: -2px;
 
                     @include respond-to('large'){
                         display: none;
@@ -208,9 +216,13 @@
                         }
 
                         &:after{
-                            background-image: url(img/icons/arrow-red-down.png);
+                            background-image: url(img/icons.png);
+                            background-repeat: no-repeat;
+                            background-size: 35px;
+                            background-position-y: -564px;
+                            background-position-x: -11px;
                             transform: rotate(-180deg);
-                            transition: all 0.5s;
+                            transition: transform 0.5s;
                         }
                     }
 
@@ -245,9 +257,13 @@
                     }
 
                     &:after{
-                        background-image: url(img/icons/arrow-red-down.png);
+                        background-image: url(img/icons.png);
+                        background-repeat: no-repeat;
+                        background-size: 35px;
+                        background-position-y: -564px;
+                        background-position-x: -11px;
                         transform: rotate(-180deg);
-                        transition: all 0.5s;
+                        transition: transform 0.5s;
                     }
                 }
 
@@ -289,11 +305,13 @@
                     
                     &:before{
                         width: 22px;
-                        height: 17px;
+                        height: 22px;
                         font-size: 0;
-                        background-image: url(img/icons/arrow-gray-right.png);
+                        background-image: url(img/icons.png);
                         background-repeat: no-repeat;
-                        background-size: contain;
+                        background-size: 48px;
+                        background-position-y: -1023px;
+                        background-position-x: -10px;
                     }
                 }
                 .flex-prev{
@@ -302,11 +320,13 @@
                     
                     &:before{
                         width: 22px;
-                        height: 17px;
+                        height: 22px;
                         font-size: 0;
-                        background-image: url(img/icons/arrow-gray-left.png);
+                        background-image: url(img/icons.png);
                         background-repeat: no-repeat;
-                        background-size: contain;
+                        background-size: 48px;
+                        background-position-y: -970px;
+                        background-position-x: -10px;
                     }
                 }
             }
@@ -543,6 +563,8 @@
                 }
                 
                 .form-container{
+                    align-items: center;
+                    
                     .input-container{
                         margin-bottom: 20px;
                     }
