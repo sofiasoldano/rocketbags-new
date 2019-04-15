@@ -123,7 +123,7 @@
     <script src="js/vendors/bootstrap.min.js"></script>
     <script src="js/vendors/jquery.flexslider.js"></script>
     
-    <script src="js/functions.min.js"></script>
+    <script src="js/functions.js"></script>
 
   </body>
 

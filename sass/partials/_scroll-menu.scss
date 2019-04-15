@@ -1,0 +1,56 @@
+.scroll-menu{
+    box-shadow: 0 30px 50px -16px rgba(0,0,0,0.15);
+    display: none;
+    
+    @include respond-to('medium'){
+        display: block;
+    }
+    
+    ul{
+        font-size: 0;
+        
+        li{
+            display: inline-block;
+            width: 33.33333%;
+            text-align: center;
+            
+            a{
+                display: block;
+                border: 1px solid #D8D8D8;
+                padding: 20px;
+                
+                &.selected{
+                    background: #E9E9E9;
+                }
+                
+                p{
+                    font-size: 19px;
+                    margin: 0;
+                    
+                    &:after{
+                        content: "";
+                        transition: all 0.5s;
+                        display: inline-block;
+                        width: 26px;
+                        height: 12px;
+                        background-image: url(img/icons.png);
+                        background-repeat: no-repeat;
+                        background-size: 30px;
+                        background-position-y: -512px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    &.fixed{
+        ul{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: $white;
+            z-index: 11;
+        }
+    }
+} 

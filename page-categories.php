@@ -1,4 +1,4 @@
-<?php $page_name = "home" ?>
+<?php $page_name = "categories" ?>
 <?php include('header.php'); ?>
 
 <section class="hero">
@@ -38,39 +38,21 @@
     </div>
 </section>
 
-<section class="main scroll-to">
-    <ul class="nav nav-tabs">
-        <li>
-            <a data-toggle="tab" href="#s-quick" class="active lnk-quick">
-                <div class="img-container">
-                    <img src="img/s-quick.png" width="404" alt="Something Quick">
-                </div>
-                <div class="content">
-                    <h3 class="title">Something <b>Quick?</b></h3>
-                    <p>Show off your brand on our <br>brillant range of stock bags! </p>
-                </div>
-            </a>
-        </li>
-        <li>
-            <a data-toggle="tab" href="#s-unique" class="lnk-unique">
-                <div class="content">
-                    <h3 class="title">Something <b>Unique?</b></h3>
-                    <p>Get a tailor-made bag to <br>suit your needs! </p>
-                </div>
-                <div class="img-container">
-                    <img src="img/s-unique.png" width="404" alt="Something Unique">
-                </div>
-            </a>
-        </li>
+<section class="scroll-menu scroll-to">
+    <ul>
+        <li><a id="lnk-bags" href="javascript:scrollTo('.main')"><p>Our Bags</p></a></li>
+        <li><a id="lnk-process" href="javascript:scrollTo('.easy-process')"><p>Our Easy Process</p></a></li>
+        <li><a id="lnk-why" href="javascript:scrollTo('.features')" ><p>Why Rocket Bags</p></a></li>
     </ul>
+</section>
+
+<section class="main">
     <div class="container">
-        <div class="tab-content">
-            <div id="s-quick" class="tab-pane fade in active show s-quick">
-                <div class="row">
+        <div class="row">
                     <div class="col-md-12">
                         <div class="title-description">
-                            <div class="bg">Quick</div>
-                            <p><b>Stock Bags</b> are pre-manufactured,<br> quickly available in multiple colours,<b> and ready to be branded!</b></p>
+                            <div class="bg">Our bags</div>
+                            <p>Get your brand on these <b>stock bags!</b></p>
                         </div>
                     </div>
                 </div>
@@ -274,78 +256,48 @@
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div id="s-unique" class="tab-pane fade s-unique">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="title-description">
-                            <div class="bg">Unique</div>
-                            <p>We Can <b>Design and Make</b> Just About Any Bag.<br class="hidden-xs"> See Some Examples of <b>Our Finished Products Below:</b></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row unique-bag">
-                    <div class="col-md-7">
-                        <div class="unique-slider flexslider">
-                            <ul class="slides">
-                                <li class="slide">
-                                    <img src="img/unique-ilustracion.png" width="250" alt="Get the perfect bag">
-                                    <img src="img/unique-bag.png" width="270" alt="Get the perfect bag">
-                                </li>
-                                <li class="slide">
-                                    <img src="img/unique-ilustracion.png" width="250" alt="Get the perfect bag">
-                                    <img src="img/unique-bag.png" width="270" alt="Get the perfect bag">
-                                </li>
-                                <li class="slide">
-                                    <img src="img/unique-ilustracion.png" width="250" alt="Get the perfect bag">
-                                    <img src="img/unique-bag.png" width="270" alt="Get the perfect bag">
-                                </li>
-                                <li class="slide">
-                                    <img src="img/unique-ilustracion.png" width="250" alt="Get the perfect bag">
-                                    <img src="img/unique-bag.png" width="270" alt="Get the perfect bag">
-                                </li>
-                            </ul>
-                            <div class="active-number"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="title">Get the Perfect Bag</div>
-                        <p class="subtitle">Add extra value to your campaign or project.</p>
-                        <div class="desc">
-                            <p>Your own unique design</p>
-                            <p>Your perfect colour</p>
-                            <p>The most suitable material</p>
-                            <p>We make it easy!</p>
-                            <p>Could cost less than a stock bag!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 
-<section>
+<section class="easy-process">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="title-description mb-0 mt-0">
-                    <p>#1 Manufacturer of Custom <b>Promotional Bags in the UK</b></p>
+                <div class="title-description">
+                    <p>Our <b>Easy Process</b></p>
                 </div>
-                <div class="text-description">
-                    <div class="container-content-show-more">							
-                        <div class="content-show-more more" data-chars="75" >
-                        
-                            <p><b class="blue">At Rocket Bags, we make it easy to order the perfect custom made bags for your business.</b> When you work with us, you can expect the service, quality and expertise that only comes from supplying promotional bags to the UK’s leading organisations for more than 25 years. From the time you get in touch, to the moment you have your corporate branded bags in hand, we’ll work hard to ensure that you’re 100% satisfied with the service and products you receive. There’s a reason why we’re the leading promotional bag manufacturer in the UK!</p>
-                        </div>
-                        
+            </div>
+                <div class="col-md-6 box">
+                    <div class="icon"><img src="img/p-listen.png" alt="Listen" width="77"></div>
+                    <div class="desc">
+                        <div class="title">Listen</div>
+                        <p>We want to understand exactly what type of bag you’re looking for, and any other needs you might have.</p>
                     </div>
+                </div>
+                <div class="col-md-6 box">
+                    <div class="icon"><img src="img/p-suggest.png" alt="Suggest" width="82"></div>
+                    <div class="desc">
+                        <div class="title">Suggest</div>
+                        <p>We’ll utilise 25 years of experience to suggest your perfect bag options, at the UK’s guaranteed best prices.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box">
+                    <div class="icon"><img src="img/p-design.png" alt="Free Design" width="80"></div>
+                    <div class="desc">
+                        <div class="title">Free Design</div>
+                        <p>Once you’ve chosen your design, the UK’s most experienced bag designers will present your branded concept.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 box">
+                        <div class="icon"><img src="img/p-deliver.png" alt="Brand and Deliver" width="86"></div>
+                    <div class="desc">
 
+                        <div class="title">Brand and Deliver</div>
+                        <p>We’ll speedily deliver your quality- guaranteed bags. Job done!</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="features">

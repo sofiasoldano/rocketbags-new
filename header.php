@@ -30,7 +30,7 @@
                 <ul>
                     <li><a <?php if ( $page_name == "home" ) echo 'class="active"'; ?> href="page-home.php">Home</a></li>
                     <li class="categories">
-                        <a class="<?php if ( $page_name == "category" ) echo 'active'; ?> categories-lnk" href="page-category.php"> Bags</a>
+                        <a class="<?php if ( $page_name == "category" || $page_name == "categories") echo 'active'; ?> categories-lnk" href="page-category.php"> Bags</a>
                         <div class="categories-dropdown">
                             <div class="arrow"></div>
                             <div class="description">
@@ -41,18 +41,18 @@
                                 </div>
                             </div>
                             <div class="links">
-                                <a href="#">Backpacks & Rucksacks </a>
-                                <a href="#">Bags for life</a>
-                                <a href="#">Beach bags</a>
-                                <a href="#">Conference & Exhibition</a>
-                                <a href="#">Cooler Bags </a>
-                                <a href="#">Cosmetic Bags</a>
-                                <a href="#">Drawstring Bags</a>
-                                <a href="#">Duffel Bags</a>
-                                <a href="#">Eco Friendly Bags</a>
-                                <a href="#">Laptop Bags</a>
-                                <a href="#">Paper Bags</a>
-                                <a class="red-lnk arrow-right" href="#">View more</a>
+                                <a href="page-category.php">Backpacks & Rucksacks </a>
+                                <a href="page-category.php">Bags for life</a>
+                                <a href="page-category.php">Beach bags</a>
+                                <a href="page-category.php">Conference & Exhibition</a>
+                                <a href="page-category.php">Cooler Bags </a>
+                                <a href="page-category.php">Cosmetic Bags</a>
+                                <a href="page-category.php">Drawstring Bags</a>
+                                <a href="page-category.php">Duffel Bags</a>
+                                <a href="page-category.php">Eco Friendly Bags</a>
+                                <a href="page-category.php">Laptop Bags</a>
+                                <a href="page-category.php">Paper Bags</a>
+                                <a class="red-lnk arrow-right" href="page-categories.php">View more</a>
                             </div>
                         </div>
                     </li>

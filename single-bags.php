@@ -335,13 +335,13 @@
                 <a href="#" class="product">
                     <div class="product-colours">
                         <ul>
-                            <li class="loop-colour-sample" style="background-color: #0a0a0a;" title="Anthracite">Anthracite</li>
-                            <li class="loop-colour-sample" style="background-color: #000080;" title="Navy">Navy</li>
-                            <li class="loop-colour-sample" style="background-color: #dd3333;" title="Red">Red</li>
+                            <li class="loop-colour-sample" style="background-color: #0a0a0a;" title="Anthracite" onclick="changeColor('img/product-black.png', '#product')">Anthracite</li>
+                            <li onclick="changeColor('img/product-blue.png', '#product')" class="loop-colour-sample" style="background-color: #000080;" title="Navy">Navy</li>
+                            <li onclick="changeColor('img/product.png', '#product')" class="loop-colour-sample" style="background-color: #dd3333;" title="Red">Red</li>
                         </ul>
                     </div>
                     <div class="img-container">
-                        <img src="img/product.png" alt="Backpacks & Rucksacks" width="195">
+                        <img id="product" src="img/product.png" alt="Backpacks & Rucksacks" width="195">
                     </div>
                     <p class="name">Backpacks & Rucksacks </p>
                     <div class="btn-full upper">View product</div>

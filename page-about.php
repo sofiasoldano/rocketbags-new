@@ -20,10 +20,20 @@
     </div>
 </section>
 
-<section class="main scroll-to">
+<section class="scroll-menu scroll-to">
+    <ul>
+        <li><a id="lnk-what-we-do" href="javascript:scrollTo('.what-do')"><p>What We Do?</p></a></li>
+        <li><a id="lnk-what-we-believe" href="javascript:scrollTo('.items')"><p>What We Believe in?</p></a></li>
+        <li><a id="lnk-team" href="javascript:scrollTo('.team')" ><p>Meet The Team</p></a></li>
+        <li><a id="lnk-touch" href="javascript:scrollTo('.get-quote')" ><p>Get in Touch</p></a></li>
+    </ul>
+</section>
+
+<section class="main">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <div class="what-do">
                 <div class="title-description mb-0">
                     <p><b>We’re the Bag Experts You Wish <br> You’d Always Known About!</b></p>
                 </div>
@@ -34,6 +44,7 @@
 
                     <p><b class="blue">You’ve found us. We’re ready to get to work for you.</b></p>
                 </div>
+            </div>
             </div>
         </div>
         <div class="items">
