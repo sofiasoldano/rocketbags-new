@@ -3,7 +3,9 @@
     align-items: center;
     
     &.show{
-        display: flex !important;
+        @include respond-to('medium'){
+            display: flex !important;
+        }
     }
     
     .modal-dialog{
@@ -81,10 +83,12 @@
                 }
                 
                 .first-row{
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    width: 100%;
+                    @include respond-to('medium'){
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                    }
                     
                     .input-container {
                         @include respond-to('small'){
