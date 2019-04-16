@@ -12,27 +12,29 @@
                 
                 <form>
                     <div class="form-container">
-                        <div class="title">Get a Quick Quote</div>
-                        <div class="subtitle">How can we help you?</div>
-                        <div class="overflow-hidden">
-                            <div class="left">
-                                <div class="title-input">What products are you interested in?</div>
+                        <div class="first-row">
+                            <div>
+                                <div class="subtitle">What products are you interested in?</div>
                                 <input type="radio" id="custom" value="custom" name="product"><label for="custom">100% custom, tailor-made bags</label><br>
                                 <input type="radio" id="stock" value="stock" name="product"><label for="stock">Stock bags with my logo or design added</label>
                             </div>
-                            <div class="right">
+                            <div>
+                                <div class="subtitle">Quantity required</div>
+                                <div class="input-container">
+                                    <input type="number" name="quantity" placeholder="Quantity">
+                                </div>
+                            </div>
+                            <div>
                                 <div class="title-input">Upload logo or design (optional)</div>
                                 <input id="file" name="file" type="file">
                                 <p class="file-size">Maximun file size: 2mb</p>
                             </div>
                         </div>
-                        <div class="subtitle">Quantity required</div>
-                        <div class="input-container">
-                            <input type="number" name="quantity" placeholder="Quantity">
-                        </div>
+                        
                         <div class="subtitle">Do you have a specific bag or type of bag in mind?</div>
                         <p>Giving us as much information as possible about the type of bag you are looking for (along with any other details like ideal price, examples of bags you like, etc.) will help us to provide you with the best options to meet your needs and budget.</p>
-                        <textarea name="message" placeholder="Tell us about your project"></textarea>
+                        <input class="message" type="text" name="message" placeholder="Tell us about your project">
+                            
                         
                         <div class="subtitle">Tell us a little about yourself</div>
                         <div class="input-container">
@@ -123,7 +125,7 @@
     <script src="js/vendors/bootstrap.min.js"></script>
     <script src="js/vendors/jquery.flexslider.js"></script>
     
-    <script src="js/functions.js"></script>
+    <script src="js/functions.min.js"></script>
 
   </body>
 
