@@ -1,10 +1,6 @@
 .page-thank-you{
     padding-top: 100px;
         
-    @include respond-to('medium'){
-        padding-top: 0;
-    }
-    
     .main{
         background: linear-gradient(#ffffff 80%, #f0f0f0);
         margin-bottom: 200px;

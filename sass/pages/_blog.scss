@@ -27,8 +27,8 @@
                 width: 60%;
                 background-position: left -1px center;
                 font-size: 16px;
-                color: #989898;
-                border: 1px solid #A2A2A2;
+                color: #7B7B7B;
+                border: 1px solid #7B7B7B;
                 border-right: 0;
                 border-radius: 50px;
                 border-top-right-radius: 0;
@@ -39,6 +39,10 @@
                 background-repeat: no-repeat;
                 background-size: 55px;
                 background-position-y: -68px;
+                
+                &::placeholder{
+                    color: #7B7B7B;
+                }
             }
             
             .btn-full{

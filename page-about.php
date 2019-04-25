@@ -2,7 +2,7 @@
 <?php include('header.php'); ?>
 
 <section class="hero">
-    <div class="background"><img src="img/heros/home-hero.png" alt="Promote your Brand With our Bags."></div>
+    <div class="background"><img src="img/heros/about.png" alt="Promote your Brand With our Bags."></div>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
